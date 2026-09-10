@@ -1,0 +1,22 @@
+{
+  "name": "auto-tonalidades",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Manoel Ribeiro",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.20.2",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "playwright": "^1.63.0"
+  }
+}
