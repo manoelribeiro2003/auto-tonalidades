@@ -4,7 +4,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "334",
-    medidas: {
+    medida: {
       largura1: 19.86,
       largura2: 17.88,
       comprimento: 28.74,
@@ -13,7 +13,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "35",
-    medidas: {
+    medida: {
       largura1: 20.24,
       largura2: 18.17,
       comprimento: 29.55,
@@ -22,7 +22,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "36",
-    medidas: {
+    medida: {
       largura1: 20.61,
       largura2: 18.49,
       comprimento: 30.28,
@@ -31,7 +31,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "37",
-    medidas: {
+    medida: {
       largura1: 20.98,
       largura2: 18.81,
       comprimento: 31.05,
@@ -40,7 +40,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "38",
-    medidas: {
+    medida: {
       largura1: 21.36,
       largura2: 19.13,
       comprimento: 31.82,
@@ -49,7 +49,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "39",
-    medidas: {
+    medida: {
       largura1: 21.73,
       largura2: 19.45,
       comprimento: 32.6,
@@ -58,7 +58,7 @@ export const navsCabedal: navalha[] = [
   {
     tipo: tipoNavalha.CABEDAL,
     tamanho: "40",
-    medidas: {
+    medida: {
       largura1: 22.1,
       largura2: 19.79,
       comprimento: 33.37,
@@ -70,7 +70,7 @@ export const navsLingueta: navalha[] = [
   {
     tipo: tipoNavalha.LINGUETA,
     tamanho: "334",
-    medidas: {
+    medida: {
       largura1: 17.42,
       largura2: 16.62,
       comprimento: 13.23,
@@ -79,7 +79,7 @@ export const navsLingueta: navalha[] = [
   {
     tipo: tipoNavalha.LINGUETA,
     tamanho: "356",
-    medidas: {
+    medida: {
       largura1: 17.73,
       largura2: 16.9,
       comprimento: 13.58,
@@ -88,7 +88,7 @@ export const navsLingueta: navalha[] = [
   {
     tipo: tipoNavalha.LINGUETA,
     tamanho: "378",
-    medidas: {
+    medida: {
       largura1: 18.33,
       largura2: 17.44,
       comprimento: 14.28,
@@ -97,7 +97,7 @@ export const navsLingueta: navalha[] = [
   {
     tipo: tipoNavalha.LINGUETA,
     tamanho: "394",
-    medidas: {
+    medida: {
       largura1: 19,
       largura2: 18.12,
       comprimento: 14.94,
