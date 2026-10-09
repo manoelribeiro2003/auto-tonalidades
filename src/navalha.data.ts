@@ -105,55 +105,188 @@ export const navsLingueta: navalha[] = [
   },
 ];
 
-export const navsGaspea: navalha[] = [
+export const navsGaspeaExt: navalha[] = [
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "334",
-    medida: { largura1: 0, largura2: 23.74, comprimento: 14.17 },
+    medida: {
+      largura1: 0,
+      largura2: 23.74,
+      comprimento: 14.17,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "35",
-    medida: { largura1: 0, largura2: 24.33, comprimento: 14.44 },
+    medida: {
+      largura1: 0,
+      largura2: 24.33,
+      comprimento: 14.44,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "36",
-    medida: { largura1: 0, largura2: 24.74, comprimento: 14.61 },
+    medida: {
+      largura1: 0,
+      largura2: 24.74,
+      comprimento: 14.61,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "378",
-    medida: { largura1: 0, largura2: 26.08, comprimento: 15.28 },
+    medida: {
+      largura1: 0,
+      largura2: 26.08,
+      comprimento: 15.28,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "39",
-    medida: { largura1: 0, largura2: 26.65, comprimento: 15.51 },
+    medida: {
+      largura1: 0,
+      largura2: 26.65,
+      comprimento: 15.51,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "40",
-    medida: { largura1: 0, largura2: 27.05, comprimento: 15.7 },
+    medida: {
+      largura1: 0,
+      largura2: 27.05,
+      comprimento: 15.7,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "41",
-    medida: { largura1: 0, largura2: 27.48, comprimento: 15.85 },
+    medida: {
+      largura1: 0,
+      largura2: 27.48,
+      comprimento: 15.85,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "42",
-    medida: { largura1: 0, largura2: 28.71, comprimento: 16.46 },
+    medida: {
+      largura1: 0,
+      largura2: 28.71,
+      comprimento: 16.46,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "434",
-    medida: { largura1: 0, largura2: 29.26, comprimento: 16.71 },
+    medida: {
+      largura1: 0,
+      largura2: 29.26,
+      comprimento: 16.71,
+    },
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
     tamanho: "45",
-    medida: { largura1: 0, largura2: 29.86, comprimento: 16.97 },
+    medida: {
+      largura1: 0,
+      largura2: 29.86,
+      comprimento: 16.97,
+    },
+  },
+];
+
+export const navsGaspeaInt: navalha[] = [
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "334",
+    medida: {
+      largura1: 0,
+      largura2: 24.25,
+      comprimento: 16.59,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "35",
+    medida: {
+      largura1: 0,
+      largura2: 24.81,
+      comprimento: 16.79,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "36",
+    medida: {
+      largura1: 0,
+      largura2: 25.15,
+      comprimento: 16.93,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "378",
+    medida: {
+      largura1: 0,
+      largura2: 26.63,
+      comprimento: 17.89,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "39",
+    medida: {
+      largura1: 0,
+      largura2: 27.2,
+      comprimento: 18.09,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "40",
+    medida: {
+      largura1: 0,
+      largura2: 27.55,
+      comprimento: 18.24,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "41",
+    medida: {
+      largura1: 0,
+      largura2: 27.88,
+      comprimento: 18.39,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "42",
+    medida: {
+      largura1: 0,
+      largura2: 29.28,
+      comprimento: 19.35,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "434",
+    medida: {
+      largura1: 0,
+      largura2: 29.87,
+      comprimento: 19.56,
+    },
+  },
+  {
+    tipo: tipoNavalha.GASPEA_INT,
+    tamanho: "45",
+    medida: {
+      largura1: 0,
+      largura2: 30.4,
+      comprimento: 19.78,
+    },
   },
 ];

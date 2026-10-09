@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx src/index.ts"
+    "dev": "tsx src/index.ts",
+    "dev:cls": "cls && tsx src/index.ts"
   },
   "devDependencies": {
     "@playwright/test": "^1.63.0",
