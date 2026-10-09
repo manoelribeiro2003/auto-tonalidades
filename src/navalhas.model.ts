@@ -1,10 +1,12 @@
 export enum tipoNavalha {
   LINGUETA = "LINGUETA",
   CABEDAL = "CABEDAL",
+  GASPEA_INT = 'GÁSPEA INTERNA',
+  GASPEA_EXT = 'GÁSPEA EXTERNA'
 }
 
 export type navalha = {
-  tipo: tipoNavalha.CABEDAL | tipoNavalha.LINGUETA;
+  tipo: tipoNavalha;
   tamanho: string;
   medida: {
     largura1: number;
