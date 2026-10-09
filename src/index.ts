@@ -1,49 +1,45 @@
 import { type navalha } from "./navalhas.model.js";
 import { navsLingueta } from "./navalha.data.js";
-import { get_largura_e_batidas } from "./navalhas.utils.js";
+import {
+  get_larguras_e_batidas_combinadas,
+  type batidas_combinadas,
+} from "./navalhas.utils.js";
 
 const LARGURA_MESA = 143;
+const NUM_BATIDAS_RANGE_MAX = Array.from({ length: 20 }, (_, index) => index);
 
-const nav_ling_334 = navsLingueta.find((nav) => nav.tamanho == "334")!;
-const nav_ling_356 = navsLingueta.find((nav) => nav.tamanho == "356")!;
+const nav_ling_1 = navsLingueta.find((nav) => nav.tamanho == "394")!;
+const nav_ling_2 = navsLingueta.find((nav) => nav.tamanho == "378")!;
 
-function get_larguras_e_batidas_combinadas(
-  navalha1: navalha,
-  navalha2: navalha,
-  qtd_bat_nav1: number,
-  largura_mesa: number,
-) {
-  let larg_qtd_batidas_nav_1 =
-    qtd_bat_nav1 == 1
-      ? navalha1.medida.largura1
-      : navalha1.medida.largura1 +
-        navalha1.medida.largura2 * (qtd_bat_nav1 - 1);
+const bat_comb_para_nav1: batidas_combinadas[] = [];
+const bat_comb_para_nav2: batidas_combinadas[] = [];
 
-  let larg_disp_para_nav2 = largura_mesa - larg_qtd_batidas_nav_1;
-
-  const result_nav2 = get_largura_e_batidas(
-    navalha2,
-    larg_disp_para_nav2,
-    qtd_bat_nav1 !== 0,
+NUM_BATIDAS_RANGE_MAX.forEach((num) => {
+  const result1 = get_larguras_e_batidas_combinadas(
+    nav_ling_1,
+    nav_ling_2,
+    num,
+    LARGURA_MESA,
   );
+  const result2 = get_larguras_e_batidas_combinadas(
+    nav_ling_2,
+    nav_ling_1,
+    num,
+    LARGURA_MESA,
+  );
+  bat_comb_para_nav1.push(result1);
+  bat_comb_para_nav2.push(result2);
+});
 
-  return {
-    tamanho_nav1: navalha1.tamanho,
-    tamanho_nav2: navalha2.tamanho,
-    largura_mesa: largura_mesa,
-    qtd_batidas_nav1: qtd_bat_nav1,
-    qtd_batidas_nav2: result_nav2.batidas,
-    largura_total: larg_qtd_batidas_nav_1 + result_nav2.largura_total,
-  };
-}
+const ordenado1 = bat_comb_para_nav1
+  .sort((a, b) => b.largura_total - a.largura_total)
+  .filter((item) => item.largura_total <= LARGURA_MESA);
+const ordenado2 = bat_comb_para_nav2
+  .sort((a, b) => b.largura_total - a.largura_total)
+  .filter((item) => item.largura_total <= LARGURA_MESA);
 
-
-
-const result = get_larguras_e_batidas_combinadas(
-  nav_ling_334,
-  nav_ling_356,
-  1,
-  LARGURA_MESA,
-);
-
-console.log(result);
+console.log("---------------------------------------------------------");
+console.log(ordenado1);
+console.log("---------------------------------------------------------");
+console.log(ordenado2);
+console.log("---------------------------------------------------------");
