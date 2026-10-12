@@ -1,4 +1,4 @@
-import type { navalha } from "./navalhas.model.js";
+import type { navalha, tonalidade } from "./navalhas.model.js";
 
 export type larguras_e_batidas = {
   tamanho: string;
@@ -119,5 +119,71 @@ export function get_larguras_e_batidas_combinadas(
     qtd_batidas_nav1: qtd_bat_nav1,
     qtd_batidas_nav2: resultadoNav2.batidas,
     largura_total: larguraOcupacaoNav1 + resultadoNav2.largura_total,
+  };
+}
+
+/**
+ * Retorna a informação de quais são as melhores combinações de batidas por navalhas dividido por tonalidade
+ */
+export function melhores_batidas(
+  navalhas: navalha[],
+  largura_mesa: number,
+  rangeMaxBatidas: number[],
+  tonalidades: tonalidade[],
+) {
+  const melhores_batidas_por_num: Record<string, batidas_combinadas[]> = {};
+  const logs: string[] = [];
+
+  navalhas.forEach((nav1) => {
+    logs.push(
+      "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
+    );
+
+    const tonalidadeNav1 = tonalidades.find((ton) =>
+      ton.tamanhos.includes(nav1.tamanho),
+    )?.ton;
+
+    navalhas.forEach((nav2) => {
+      const tonalidadeNav2 = tonalidades.find((ton) =>
+        ton.tamanhos.includes(nav2.tamanho),
+      )?.ton;
+
+      if (nav1.tamanho === nav2.tamanho || tonalidadeNav1 !== tonalidadeNav2) {
+        return;
+      }
+
+      const melhoresBatidas: batidas_combinadas[] = [];
+
+      rangeMaxBatidas.forEach((num) => {
+        const resultado = get_larguras_e_batidas_combinadas(
+          nav1,
+          nav2,
+          num,
+          largura_mesa,
+        );
+
+        if (resultado.largura_total > largura_mesa) {
+          return;
+        }
+        melhoresBatidas.push(resultado);
+      });
+
+      const melhores = melhoresBatidas.sort(
+        (a, b) => b.largura_total - a.largura_total,
+      );
+
+      melhores_batidas_por_num[nav1.tamanho] ??= [];
+
+      melhores.forEach((item) => {
+        logs.push(JSON.stringify(item));
+        melhores_batidas_por_num[nav1.tamanho]?.push(item);
+      });
+      logs.push("");
+    });
+  });
+
+  return {
+    logs: logs.join("\n"),
+    melhoresBatidasPorNum: melhores_batidas_por_num,
   };
 }

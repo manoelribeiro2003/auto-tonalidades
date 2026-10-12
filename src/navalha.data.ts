@@ -9,6 +9,7 @@ export const navsCabedal: navalha[] = [
       largura2: 17.88,
       comprimento: 28.74,
     },
+    consumo: 10.98,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -18,6 +19,7 @@ export const navsCabedal: navalha[] = [
       largura2: 18.17,
       comprimento: 29.55,
     },
+    consumo: 10.67,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -27,6 +29,7 @@ export const navsCabedal: navalha[] = [
       largura2: 18.49,
       comprimento: 30.28,
     },
+    consumo: 8.95,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -36,6 +39,7 @@ export const navsCabedal: navalha[] = [
       largura2: 18.81,
       comprimento: 31.05,
     },
+    consumo: 8.72,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -45,6 +49,7 @@ export const navsCabedal: navalha[] = [
       largura2: 19.13,
       comprimento: 31.82,
     },
+    consumo: 8.53,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -54,6 +59,7 @@ export const navsCabedal: navalha[] = [
       largura2: 19.45,
       comprimento: 32.6,
     },
+    consumo: 8.33,
   },
   {
     tipo: tipoNavalha.CABEDAL,
@@ -63,6 +69,7 @@ export const navsCabedal: navalha[] = [
       largura2: 19.79,
       comprimento: 33.37,
     },
+    consumo: 8.15,
   },
 ];
 
@@ -75,6 +82,7 @@ export const navsLingueta: navalha[] = [
       largura2: 16.62,
       comprimento: 13.23,
     },
+    consumo: 58.26,
   },
   {
     tipo: tipoNavalha.LINGUETA,
@@ -84,6 +92,7 @@ export const navsLingueta: navalha[] = [
       largura2: 16.9,
       comprimento: 13.58,
     },
+    consumo: 53.76,
   },
   {
     tipo: tipoNavalha.LINGUETA,
@@ -93,6 +102,7 @@ export const navsLingueta: navalha[] = [
       largura2: 17.44,
       comprimento: 14.28,
     },
+    consumo: 51.26,
   },
   {
     tipo: tipoNavalha.LINGUETA,
@@ -102,6 +112,7 @@ export const navsLingueta: navalha[] = [
       largura2: 18.12,
       comprimento: 14.94,
     },
+    consumo: 47.57,
   },
 ];
 
@@ -114,6 +125,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 23.74,
       comprimento: 14.17,
     },
+    consumo: 38.3,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -123,6 +135,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 24.33,
       comprimento: 14.44,
     },
+    consumo: 37.08,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -132,6 +145,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 24.74,
       comprimento: 14.61,
     },
+    consumo: 35.86,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -141,6 +155,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 26.08,
       comprimento: 15.28,
     },
+    consumo: 32.58,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -150,6 +165,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 26.65,
       comprimento: 15.51,
     },
+    consumo: 30.88,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -159,6 +175,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 27.05,
       comprimento: 15.7,
     },
+    consumo: 30.54,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -168,6 +185,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 27.48,
       comprimento: 15.85,
     },
+    consumo: 30.24,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -177,6 +195,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 28.71,
       comprimento: 16.46,
     },
+    consumo: 27.87,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -186,6 +205,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 29.26,
       comprimento: 16.71,
     },
+    consumo: 23,
   },
   {
     tipo: tipoNavalha.GASPEA_EXT,
@@ -195,6 +215,7 @@ export const navsGaspeaExt: navalha[] = [
       largura2: 29.86,
       comprimento: 16.97,
     },
+    consumo: 26.16,
   },
 ];
 
@@ -207,6 +228,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 24.25,
       comprimento: 16.59,
     },
+    consumo: 32.54,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -216,6 +238,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 24.81,
       comprimento: 16.79,
     },
+    consumo: 31.7,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -225,6 +248,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 25.15,
       comprimento: 16.93,
     },
+    consumo: 30.8,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -234,6 +258,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 26.63,
       comprimento: 17.89,
     },
+    consumo: 27.41,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -243,6 +268,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 27.2,
       comprimento: 18.09,
     },
+    consumo: 26.84,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -252,6 +278,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 27.55,
       comprimento: 18.24,
     },
+    consumo: 26.38,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -261,6 +288,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 27.88,
       comprimento: 18.39,
     },
+    consumo: 20.94,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -270,6 +298,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 29.28,
       comprimento: 19.35,
     },
+    consumo: 19.91,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -279,6 +308,7 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 29.87,
       comprimento: 19.56,
     },
+    consumo: 19.72,
   },
   {
     tipo: tipoNavalha.GASPEA_INT,
@@ -288,5 +318,6 @@ export const navsGaspeaInt: navalha[] = [
       largura2: 30.4,
       comprimento: 19.78,
     },
+    consumo: 21.86,
   },
 ];
