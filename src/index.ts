@@ -16,24 +16,24 @@ const LARGURA_MESA = 143;
 const navalhas = navsGaspeaInt;
 
 const tonalidades: tonalidade[] = [
-  {
-    ton: ton.ton1,
-    tipo: tipoNavalha.GASPEA_INT,
-    reserva: 40.8,
-    tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42"],
-  },
-  {
-    ton: ton.tonP,
-    tipo: tipoNavalha.GASPEA_INT,
-    reserva: 9.99,
-    tamanhos: ["434", "45"],
-  },
   // {
   //   ton: ton.ton1,
   //   tipo: tipoNavalha.GASPEA_INT,
   //   reserva: 40.8,
-  //   tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42", "434", "45"],
+  //   tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42"],
   // },
+  // {
+  //   ton: ton.tonP,
+  //   tipo: tipoNavalha.GASPEA_INT,
+  //   reserva: 9.99,
+  //   tamanhos: ["434", "45"],
+  // },
+  {
+    ton: ton.ton1,
+    tipo: tipoNavalha.GASPEA_INT,
+    reserva: 40.8,
+    tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42", "434", "45"],
+  },
 ];
 
 const logs: string[] = [];
