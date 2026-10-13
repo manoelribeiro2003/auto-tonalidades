@@ -1,4 +1,5 @@
-import type { navalha, tonalidade } from "./navalhas.model.js";
+import { mkdirSync, writeFileSync } from "node:fs";
+import type { navalha, tipoNavalha, tonalidade } from "./navalhas.model.js";
 
 export type larguras_e_batidas = {
   tamanho: string;
@@ -19,6 +20,17 @@ export type batidas_combinadas = {
   qtd_batidas_nav1: number;
   qtd_batidas_nav2: number;
   largura_total: number;
+};
+
+export type consumoDeNavalhas = {
+  nav1: {
+    tipo: tipoNavalha;
+    consumo: Record<string, number>;
+  };
+  nav2: {
+    tipo: tipoNavalha;
+    consumo: Record<string, number>;
+  };
 };
 
 /**
@@ -186,4 +198,78 @@ export function melhores_batidas(
     logs: logs.join("\n"),
     melhoresBatidasPorNum: melhores_batidas_por_num,
   };
+}
+
+/**
+ * Função que retorna o consumo por cada navalha de acordo com o quantidade de pares por grade de numeros
+ * @param {navalha[]} navalha1 - Array de navalhas 1
+ * @param {navalha[]} navalha2 - Array de navalhas 2
+ * @param {Record<string, number>} qtdPares - Quantidade de pares por numeração
+ */
+export function get_consumo(
+  navalha1: navalha[],
+  navalha2: navalha[],
+  qtdPares: Record<string, number>,
+) {
+  const consumoPorNumNav1 = navalha1.reduce(
+    (acc, navalha) => {
+      acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
+      return acc;
+    },
+    {} as Record<string, number>,
+  );
+  const consumoPorNumNav2 = navalha2.reduce(
+    (acc, navalha) => {
+      acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
+      return acc;
+    },
+    {} as Record<string, number>,
+  );
+
+  return {
+    nav1: {
+      tipo: navalha1.at(0)!.tipo,
+      consumo: consumoPorNumNav1,
+    },
+    nav2: {
+      tipo: navalha2.at(0)!.tipo,
+      consumo: consumoPorNumNav2,
+    },
+  };
+}
+
+/**
+ * Função para salvar um arquivo com combinação de batidas
+ * @param {string} tipo - Tipo do arquivo "txt" ou "json"
+ * @param {batidas_combinadas[]} melhoresBatidasObj Array de batidas combinadas
+ * @param {string} nomeArquivo String que contem o nome do arquivo
+ * @param {string} caminho String opcional com o caminho para onde se deseja salvar o arquivo
+ */
+export function escreverArquivo(
+  tipo: "txt" | "json",
+  melhoresBatidasObj: {
+    logs: string;
+    melhoresBatidasPorNum: Record<string, batidas_combinadas[]>;
+  },
+  nomeArquivo: string,
+  caminho?: string,
+) {
+  if (!nomeArquivo)
+    throw new Error("Erro: nome de arquivo em branco ou inválido");
+
+  if (caminho && !caminho.endsWith("/"))
+    throw new Error("Erro: insira um caminho válido com '/' no final");
+
+  const pastaDestino = caminho ?? `saidas/${tipo}/`;
+
+  mkdirSync(pastaDestino, { recursive: true });
+
+  const caminhoArquivo = `${pastaDestino}${nomeArquivo}.${tipo}`;
+
+  const conteudo =
+    tipo === "txt"
+      ? melhoresBatidasObj.logs
+      : JSON.stringify(melhoresBatidasObj.melhoresBatidasPorNum, null, 2);
+
+  writeFileSync(caminhoArquivo, conteudo, "utf8");
 }

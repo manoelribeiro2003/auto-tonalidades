@@ -1,16 +1,25 @@
-import { writeFileSync } from "node:fs";
-import { ton, type tonalidade } from "./navalhas.model.js";
+import { ton, type navalha, type tonalidade } from "./navalhas.model.js";
 import {
   navsCabedal,
   navsGaspeaExt,
   navsGaspeaInt,
   navsLingueta,
 } from "./navalha.data.js";
-import { melhores_batidas } from "./navalhas.utils.js";
+import {
+  escreverArquivo,
+  get_consumo,
+  melhores_batidas,
+} from "./navalhas.utils.js";
+import { writeFileSync } from "node:fs";
 
 const NUM_BATIDAS_RANGE_MAX = Array.from({ length: 20 }, (_, index) => index);
 
-const LARGURA_MESA = 139;
+const larguraMesa = {
+  cabedal: 142,
+  lingueta: 143,
+  gaspea_interna: 139,
+  gaspea_externa: 139,
+};
 
 const tonalidadesGaspeaInterna: tonalidade[] = [
   {
@@ -41,7 +50,7 @@ const tonalidadesGaspeaExterna: tonalidade[] = [
   },
 ];
 
-const qtd_pares: Record<string, number> = {
+const paresPorGrade: Record<string, number> = {
   "334": 43,
   "35": 55,
   "36": 60,
@@ -54,50 +63,34 @@ const qtd_pares: Record<string, number> = {
   "45": 44,
 };
 
-const melhoresBatidasGaspeaInterna = melhores_batidas(
-  navsGaspeaInt,
-  LARGURA_MESA,
+const melhoresBatidasCabedal = melhores_batidas(
+  navsCabedal,
+  larguraMesa.cabedal,
   NUM_BATIDAS_RANGE_MAX,
   tonalidadesGaspeaInterna,
 );
-const melhoresBatidasGaspeaExterna = melhores_batidas(
-  navsGaspeaExt,
-  LARGURA_MESA,
+
+const melhoresBatidasLingueta = melhores_batidas(
+  navsLingueta,
+  larguraMesa.lingueta,
   NUM_BATIDAS_RANGE_MAX,
   tonalidadesGaspeaExterna,
 );
-const consumoPorNum = navsGaspeaInt.reduce(
-  (acc, navalha) => {
-    acc[navalha.tamanho] = qtd_pares[navalha.tamanho]! / navalha.consumo;
-    return acc;
-  },
-  {} as Record<string, number>,
+const melhoresBatidasGaspeaInterna = melhores_batidas(
+  navsGaspeaInt,
+  larguraMesa.gaspea_interna,
+  NUM_BATIDAS_RANGE_MAX,
+  tonalidadesGaspeaInterna,
 );
 
-writeFileSync(
-  "saidas/json/resultadogaspeaInterna.json",
-  JSON.stringify(melhoresBatidasGaspeaInterna.melhoresBatidasPorNum, null, 2),
-  "utf8",
-);
-writeFileSync(
-  "saidas/txt/resultadogaspeaInterna.txt",
-  melhoresBatidasGaspeaInterna.logs,
-  "utf8",
+const melhoresBatidasGaspeaExterna = melhores_batidas(
+  navsGaspeaExt,
+  larguraMesa.gaspea_externa,
+  NUM_BATIDAS_RANGE_MAX,
+  tonalidadesGaspeaExterna,
 );
 
-writeFileSync(
-  "saidas/json/resultadogaspeaExterna.json",
-  JSON.stringify(melhoresBatidasGaspeaExterna.melhoresBatidasPorNum, null, 2),
-  "utf8",
-);
-writeFileSync(
-  "saidas/txt/resultadogaspeaExterna.txt",
-  melhoresBatidasGaspeaExterna.logs,
-  "utf8",
-);
+const consumos = get_consumo(navsGaspeaInt, navsGaspeaExt, paresPorGrade);
+writeFileSync("saidas/consulmos.json", JSON.stringify(consumos, null, 2), "utf-8");
 
-writeFileSync(
-  "saidas/json/consumoPorNum.json",
-  JSON.stringify(consumoPorNum, null, 2),
-  "utf8",
-);
+escreverArquivo("json", melhoresBatidasCabedal, "melhoresBatidasCabedal");
