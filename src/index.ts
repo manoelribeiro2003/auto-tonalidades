@@ -1,4 +1,10 @@
-import { ton, type navalha, type tonalidade } from "./navalhas.model.js";
+import {
+  ton,
+  type consumos,
+  type navalha,
+  type ReservaTon,
+  type tonalidade,
+} from "./navalhas.model.js";
 import {
   navsCabedal,
   navsGaspeaExt,
@@ -20,35 +26,6 @@ const larguraMesa = {
   gaspea_interna: 139,
   gaspea_externa: 139,
 };
-
-const tonalidadesGaspeaInterna: tonalidade[] = [
-  {
-    ton: ton.ton1,
-    tipo: navsGaspeaInt[0]?.tipo!,
-    reserva: 40.8,
-    tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42"],
-  },
-  {
-    ton: ton.tonP,
-    tipo: navsGaspeaInt[0]?.tipo!,
-    reserva: 40.8,
-    tamanhos: ["434", "45"],
-  },
-];
-const tonalidadesGaspeaExterna: tonalidade[] = [
-  {
-    ton: ton.ton1,
-    tipo: navsGaspeaExt[0]?.tipo!,
-    reserva: 40.8,
-    tamanhos: ["334", "35", "36", "378", "39", "40", "41", "42"],
-  },
-  {
-    ton: ton.tonP,
-    tipo: navsGaspeaExt[0]?.tipo!,
-    reserva: 40.8,
-    tamanhos: ["434", "45"],
-  },
-];
 
 const paresPorGrade: Record<string, number> = {
   "334": 43,
@@ -91,6 +68,29 @@ const melhoresBatidasGaspeaExterna = melhores_batidas(
 );
 
 const consumos = get_consumo(navsGaspeaInt, navsGaspeaExt, paresPorGrade);
-writeFileSync("saidas/consulmos.json", JSON.stringify(consumos, null, 2), "utf-8");
+writeFileSync(
+  "saidas/consulmos.json",
+  JSON.stringify(consumos, null, 2),
+  "utf-8",
+);
 
 escreverArquivo("json", melhoresBatidasCabedal, "melhoresBatidasCabedal");
+
+const reservaDeTons: ReservaTon[] = [
+  {
+    ton: ton.ton2,
+    reserva: 24.7,
+  },
+  {
+    ton: ton.tonP,
+    reserva: 9.99,
+  },
+  {
+    ton: ton.ton1,
+    reserva: 40.8,
+  },
+];
+
+
+
+console.log(dividirTonalidades(reservaDeTons, consumos));

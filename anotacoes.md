@@ -1,22 +1,26 @@
 # ANOTAÇÕES
 
-Passos/etapas:
+### Impacto no aproveitamento de largura
 
-1. Realizar a divisão dos tons entre as navalhas
+No método `dividirTonalidades()`, durante a divisão de tonalidades, não está sendo levado em consideração a ordem de numeração ex: [334, 35, 36, 378, 39, 40, 41, 42, 434, 45] e nem a combinação de melhores batidas, apenas a ordem do objeto onde guarda as informações de numeração das navalhas.
 
-- Já que eu tenho a lista com as melhores combinações de batidas.
+Isso influencia as batidas entre números, de modo que pode ocorrer de as combinações de batidas com melhores aproveitamentos não sejam feitas devido as numerações estarem em tons diferentes, impactando na obtenção dos melhores aproveitamentos de largura.
 
-- Definir com base nessa lista qual a melhor combinação de batidas, porem dessa vez considerando tonalidades
+No método:
+```js
+const consumosCombinados = Object.entries(consumos.nav1.consumo).reduce(
+    (acc, [chave, valor]) => {
+      acc[chave] = valor + (consumos.nav2.consumo[chave] ?? 0);
+      return acc;
+    },
+    {} as Record<string, number>,
+  );
+```
+Na construção dos consumo combinados, a ordenação deverá ocorrer de acordo com as melhores larguras aproveitadas resultadas das combinações de batidas.
+
+Essa funcionalidade não foi implementada devido a complexidade de ter que levar em consideração a quantidade de pares e a ordem da combinação da batida.
 
 
-Constante largura da mesa de acordo com a navalha:
-// const LARGURA_MESA =
-//   navalhas == navsGaspeaInt
-//     ? 139
-//     : navalhas == navsCabedal
-//       ? 128
-//       : navalhas == navsLingueta
-//         ? 143
-//         : navalhas == navsGaspeaExt
-//           ? 139
-//           : 143;
+
+
+A função `melhores_batidas()` usa um array de tonalidades apenas para fazer a divisão das batidas. Quem deverá realizar a melhor divisão de tonalidades será a função `dividirTonalidades()` pois ela receberá o tipo `batidas_combinadas` e nisso a divisão das tonalidades seria com uma variavel a mais: melhores aproveitamentos por combinação

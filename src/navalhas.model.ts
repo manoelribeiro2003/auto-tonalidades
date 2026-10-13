@@ -8,7 +8,7 @@ export enum tipoNavalha {
 export type navalha = {
   tipo: tipoNavalha;
   tamanho: string;
-  consumo: number,
+  consumo: number;
   medida: {
     largura1: number;
     largura2: number;
@@ -26,7 +26,22 @@ export enum ton {
 
 export type tonalidade = {
   ton: ton;
-  tipo: tipoNavalha;
   reserva: number;
   tamanhos: string[];
+};
+
+export type ReservaTon = {
+  ton: ton;
+  reserva: number;
+};
+
+export type consumos = {
+  nav1: {
+    tipo: tipoNavalha;
+    consumo: Record<string, number>;
+  };
+  nav2: {
+    tipo: tipoNavalha;
+    consumo: Record<string, number>;
+  };
 };

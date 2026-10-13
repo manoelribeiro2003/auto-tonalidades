@@ -1,5 +1,11 @@
 import { mkdirSync, writeFileSync } from "node:fs";
-import type { navalha, tipoNavalha, tonalidade } from "./navalhas.model.js";
+import type {
+  consumos,
+  navalha,
+  ReservaTon,
+  tipoNavalha,
+  tonalidade,
+} from "./navalhas.model.js";
 
 export type larguras_e_batidas = {
   tamanho: string;
@@ -41,7 +47,7 @@ export type consumoDeNavalhas = {
  * @param {bool} somente_largura2 - Caso queira que a função considere apenas a largura 2 da navalha
  * @returns {largura_e_batida} - Retorna um objeto com a quantidade máxima de batidas e a largura máxima das batidas
  */
-export function get_largura_e_batidas(
+function get_largura_e_batidas(
   navalha: navalha,
   largura_disponivel: number,
   somente_largura2: boolean = false,
@@ -78,7 +84,7 @@ export function get_largura_e_batidas(
   }
 }
 
-function calcularLarguraOcupada(
+function getLarguraOcupada(
   largura1: number,
   largura2: number,
   batidas: number,
@@ -102,13 +108,13 @@ function calcularLarguraOcupada(
  * Retorna a informação de quantas batidas a navalha 2 faz de acordo com o
  * tamanho da mesa e a quantidade de batidas da navalha 1.
  */
-export function get_larguras_e_batidas_combinadas(
+function get_larguras_e_batidas_combinadas(
   navalha1: navalha,
   navalha2: navalha,
   qtd_bat_nav1: number,
   largura_mesa: number,
 ): batidas_combinadas {
-  const larguraOcupacaoNav1 = calcularLarguraOcupada(
+  const larguraOcupacaoNav1 = getLarguraOcupada(
     navalha1.medida.largura1,
     navalha1.medida.largura2,
     qtd_bat_nav1,
@@ -210,7 +216,7 @@ export function get_consumo(
   navalha1: navalha[],
   navalha2: navalha[],
   qtdPares: Record<string, number>,
-) {
+): consumos {
   const consumoPorNumNav1 = navalha1.reduce(
     (acc, navalha) => {
       acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
@@ -236,6 +242,72 @@ export function get_consumo(
       consumo: consumoPorNumNav2,
     },
   };
+}
+
+/**
+ * 
+ * @param {ReservaTon[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
+ * @param consumos 
+ * @returns 
+ */
+
+export function getDivisaoDeTonalidades(
+  reservaDeTons: ReservaTon[],
+  consumos: consumos,
+): tonalidade[] {
+  const reservasOrdenadas = [...reservaDeTons].sort(
+    (a, b) => b.reserva - a.reserva,
+  );
+
+  const consumosCombinados = Object.entries(consumos.nav1.consumo).reduce(
+    (acc, [chave, valor]) => {
+      acc[chave] = valor + (consumos.nav2.consumo[chave] ?? 0);
+      return acc;
+    },
+    {} as Record<string, number>,
+  );
+
+  const resultado: tonalidade[] = [];
+
+  let indiceReserva = 0;
+
+  let atual: tonalidade = {
+    ton: reservasOrdenadas[0]!.ton,
+    reserva: reservasOrdenadas[0]!.reserva,
+    tamanhos: [],
+  };
+
+  let reservaRestante = reservasOrdenadas[0]!.reserva;
+
+  for (const [tamanho, consumo] of Object.entries(consumosCombinados)) {
+    // não cabe na tonalidade atual
+    if (consumo > reservaRestante) {
+      resultado.push(atual);
+
+      indiceReserva++;
+
+      if (indiceReserva >= reservasOrdenadas.length) {
+        throw new Error(
+          `Sem reserva suficiente para alocar o tamanho ${tamanho}`,
+        );
+      }
+
+      atual = {
+        ton: reservasOrdenadas[indiceReserva]!.ton,
+        reserva: reservasOrdenadas[indiceReserva]!.reserva,
+        tamanhos: [],
+      };
+
+      reservaRestante = reservasOrdenadas[indiceReserva]!.reserva;
+    }
+
+    atual.tamanhos.push(tamanho);
+    reservaRestante -= consumo;
+  }
+
+  resultado.push(atual);
+
+  return resultado;
 }
 
 /**
