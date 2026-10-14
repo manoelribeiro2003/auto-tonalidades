@@ -1,7 +1,7 @@
 import { navsGaspeaExt, navsGaspeaInt } from "./navalha.data.js";
 import { ton, type ReservaTon } from "./navalhas.model.js";
 import {
-  getConsumoPorNavalha,
+  getConsumoDasNavalhas,
   getDivisaoDeTonalidades,
 } from "./navalhas.utils.js";
 
@@ -14,6 +14,8 @@ const LARGURA_MESA = {
 
 const nav1GaspeaInt = [...navsGaspeaInt];
 const nav2GaspeaExt = [...navsGaspeaExt];
+
+
 
 const paresPorGrade: Record<string, number> = {
   "334": 43,
@@ -28,11 +30,13 @@ const paresPorGrade: Record<string, number> = {
   "45": 44,
 };
 
-const consumoGaspea = getConsumoPorNavalha(
+const consumoDasGaspeas = getConsumoDasNavalhas(
   nav1GaspeaInt,
   nav2GaspeaExt,
   paresPorGrade,
 );
+
+
 
 const reservaDeTons: ReservaTon[] = [
   {
@@ -49,7 +53,4 @@ const reservaDeTons: ReservaTon[] = [
   },
 ];
 
-console.log(
-  "Divisão de tonalidades para navalhas gaspea interna e externa: \n",
-  getDivisaoDeTonalidades(reservaDeTons, consumoGaspea),
-);
+getDivisaoDeTonalidades(reservaDeTons, consumoDasGaspeas)

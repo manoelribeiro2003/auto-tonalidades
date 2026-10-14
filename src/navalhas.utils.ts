@@ -207,7 +207,7 @@ export function getMelhoresBatidas(
  * @param {navalha[]} navalha2 - Array de navalhas 2
  * @param {Record<string, number>} qtdPares - Quantidade de pares por numeração
  */
-export function getConsumoPorNavalha(
+export function getConsumoDasNavalhas(
   navalha1: navalha[],
   navalha2: navalha[],
   qtdPares: Record<string, number>,
@@ -242,22 +242,24 @@ export function getConsumoPorNavalha(
 /**
  *
  * @param {ReservaDeTons[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
- * @param consumos
+ * @param consumoPorNavalha
  * @returns
  */
 
 export function getDivisaoDeTonalidades(
   reservaDeTons: ReservaDeTons[],
-  consumos: consumoPorNavalha,
+  consumoPorNavalha: consumoPorNavalha,
 ): tonalidade[] {
   // Reserva de tons ordenadas da maior reserva até menor reserva
   const reservasOrdenadas = [...reservaDeTons].sort(
     (a, b) => b.reserva - a.reserva,
   );
 
-  const consumosCombinados = Object.entries(consumos.nav1.consumo).reduce(
+  const consumosCombinados = Object.entries(
+    consumoPorNavalha.nav1.consumo,
+  ).reduce(
     (acc, [chave, valor]) => {
-      acc[chave] = valor + (consumos.nav2.consumo[chave] ?? 0);
+      acc[chave] = valor + (consumoPorNavalha.nav2.consumo[chave] ?? 0);
       return acc;
     },
     {} as Record<string, number>,
@@ -270,17 +272,15 @@ export function getDivisaoDeTonalidades(
   //Cria um objeto de tonalidade ja considerando a tonalidade de maior reserva
   let tonalidadeAtual: tonalidade = {
     ton: reservasOrdenadas[0]!.ton,
-    reserva: reservasOrdenadas[0]!.reserva,
+    reserva: 0,
     tamanhos: [],
   };
 
   let reservaRestante = reservasOrdenadas[0]!.reserva;
 
-  for (const [tamanho, consumoCombinado] of Object.entries(
-    consumosCombinados,
-  )) {
-    // se o consumo combinado não cabe na tonalidade atual
-    if (consumoCombinado > reservaRestante) {
+  for (const [tamanho, consumosSomado] of Object.entries(consumosCombinados)) {
+    // se o consumo somado não cabe na tonalidade atual
+    if (consumosSomado > reservaRestante) {
       divisaoDeTonalidades.push(tonalidadeAtual);
 
       indiceReserva++;
@@ -291,9 +291,10 @@ export function getDivisaoDeTonalidades(
         );
       }
 
+      // definindo a nova tonalidade atual
       tonalidadeAtual = {
         ton: reservasOrdenadas[indiceReserva]!.ton,
-        reserva: reservasOrdenadas[indiceReserva]!.reserva,
+        reserva: 0,
         tamanhos: [],
       };
 
@@ -301,7 +302,8 @@ export function getDivisaoDeTonalidades(
     }
 
     tonalidadeAtual.tamanhos.push(tamanho);
-    reservaRestante -= consumoCombinado;
+    tonalidadeAtual.reserva += consumosSomado;
+    reservaRestante -= consumosSomado;
   }
 
   divisaoDeTonalidades.push(tonalidadeAtual);
