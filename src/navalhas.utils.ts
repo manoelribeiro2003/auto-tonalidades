@@ -141,14 +141,19 @@ function get_larguras_e_batidas_combinadas(
 }
 
 /**
- * Retorna a informação de quais são as melhores combinações de batidas por navalhas dividido por tonalidade
+ * Retorna a informação de quais são as melhores combinações de batidas por navalha.
+ *
+ * @param navalhas Array contendo as navalhas a serem testadas por numeração.
+ * @param largura_mesa Valor da largura da mesa em centímetros.
+ * @param rangeMaxBatidas Quantidades de batidas que serão testadas. Por padrão utiliza os valores de 0 a 19.
  */
 export function melhores_batidas(
   navalhas: navalha[],
   largura_mesa: number,
-  rangeMaxBatidas: number[],
-  tonalidades: tonalidade[],
+  rangeMaxBatidas?: number[],
 ) {
+  rangeMaxBatidas ??= Array.from({ length: 20 }, (_, index) => index);
+
   const melhores_batidas_por_num: Record<string, batidas_combinadas[]> = {};
   const logs: string[] = [];
 
@@ -157,18 +162,8 @@ export function melhores_batidas(
       "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
     );
 
-    const tonalidadeNav1 = tonalidades.find((ton) =>
-      ton.tamanhos.includes(nav1.tamanho),
-    )?.ton;
-
     navalhas.forEach((nav2) => {
-      const tonalidadeNav2 = tonalidades.find((ton) =>
-        ton.tamanhos.includes(nav2.tamanho),
-      )?.ton;
-
-      if (nav1.tamanho === nav2.tamanho || tonalidadeNav1 !== tonalidadeNav2) {
-        return;
-      }
+      if (nav1.tamanho === nav2.tamanho) return;
 
       const melhoresBatidas: batidas_combinadas[] = [];
 
@@ -186,7 +181,7 @@ export function melhores_batidas(
         melhoresBatidas.push(resultado);
       });
 
-      const melhores = melhoresBatidas.sort(
+      const melhores = [...melhoresBatidas].sort(
         (a, b) => b.largura_total - a.largura_total,
       );
 
@@ -245,10 +240,10 @@ export function get_consumo(
 }
 
 /**
- * 
+ *
  * @param {ReservaTon[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
- * @param consumos 
- * @returns 
+ * @param consumos
+ * @returns
  */
 
 export function getDivisaoDeTonalidades(
