@@ -246,7 +246,7 @@ export function get_consumo(
 
 /**
  * 
- * @param {ReservaTon[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
+ * @param {ReservaDeTons[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
  * @param consumos 
  * @returns 
  */
