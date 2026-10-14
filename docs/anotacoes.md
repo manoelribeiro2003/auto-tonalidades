@@ -20,7 +20,8 @@ Na construção dos consumo combinados, a ordenação deverá ocorrer de acordo 
 
 Essa funcionalidade não foi implementada devido a complexidade de ter que levar em consideração a quantidade de pares e a ordem da combinação da batida.
 
+A função `melhores_batidas()` usa um array de tonalidades apenas para fazer a divisão das batidas. Quem deverá realizar a melhor divisão de tonalidades será a função `getDivisaoDeTonalidades()` pois ela receberá o tipo `batidas_combinadas` e nisso a divisão das tonalidades seria com uma variavel a mais: melhores aproveitamentos por combinação
 
-
-
-A função `melhores_batidas()` usa um array de tonalidades apenas para fazer a divisão das batidas. Quem deverá realizar a melhor divisão de tonalidades será a função `dividirTonalidades()` pois ela receberá o tipo `batidas_combinadas` e nisso a divisão das tonalidades seria com uma variavel a mais: melhores aproveitamentos por combinação
+O certo deveria ser o metodo `getDivisaoDeTonalidades()` levar em consideração as melhores batidas.
+Atualmente nesta branch o metodo `melhores_batidas()` não está mais levando em consideração a divisão de tonalidades. 
+Deverá então o metodo `getDivisaoDeTonalidades()` implementar a divisão com base nas melhores batidas.

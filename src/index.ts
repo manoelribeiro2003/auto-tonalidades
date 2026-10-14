@@ -41,12 +41,12 @@ const paresPorGrade: Record<string, number> = {
   "45": 44,
 };
 
-// const melhoresBatidasCabedal = melhores_batidas(
-//   navsCabedal,
-//   larguraMesa.cabedal,
-//   NUM_BATIDAS_RANGE_MAX,
-//   tonalidadesGaspeaInterna,
-// );
+const melhoresBatidasCabedal = melhores_batidas(
+  navsCabedal,
+  larguraMesa.cabedal,
+  NUM_BATIDAS_RANGE_MAX,
+  tonalidadesGaspeaInterna,
+);
 
 // const melhoresBatidasLingueta = melhores_batidas(
 //   navsLingueta,
@@ -70,6 +70,12 @@ const paresPorGrade: Record<string, number> = {
 
 const consumosNavsGaspea = get_consumo(
   navsGaspeaInt,
+  larguraMesa.gaspea_interna,
+  NUM_BATIDAS_RANGE_MAX,
+  tonalidadesGaspeaExterna,
+);
+
+const melhoresBatidasGaspeaExterna = melhores_batidas(
   navsGaspeaExt,
   paresPorGrade,
 );
@@ -96,7 +102,6 @@ const reservaDeTons: ReservaTon[] = [
   },
 ];
 
-console.log(
-  "Divisão de tonalidades para navalhas de gáspea: ",
-  getDivisaoDeTonalidades(reservaDeTons, consumosNavsGaspea),
-);
+
+
+console.log(dividirTonalidades(reservaDeTons, consumos));
