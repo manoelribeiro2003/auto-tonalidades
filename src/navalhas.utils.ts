@@ -1,8 +1,8 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import type {
-  consumos,
+  consumos as consumoPorNavalha,
   navalha,
-  ReservaTon,
+  ReservaTon as ReservaDeTons,
   tipoNavalha,
   tonalidade,
 } from "./navalhas.model.js";
@@ -43,20 +43,20 @@ export type consumoDeNavalhas = {
  * Retorna a informação de quantas vezes é possivel encaixar a navalha de acordo com a largura fornecida.
  *
  * @param {navalha} navalha - Navalha a ser feita a contagem de batidas totais disponiveis
- * @param {number} largura_disponivel - O tamanho da mesa de corte em centimetros
- * @param {bool} somente_largura2 - Caso queira que a função considere apenas a largura 2 da navalha
+ * @param {number} larguraDisponivel - O tamanho da mesa de corte em centimetros
+ * @param {bool} somenteLargura2 - Caso queira que a função considere apenas a largura 2 da navalha
  * @returns {largura_e_batida} - Retorna um objeto com a quantidade máxima de batidas e a largura máxima das batidas
  */
-function get_largura_e_batidas(
+function getLarguraEBatidas(
   navalha: navalha,
-  largura_disponivel: number,
-  somente_largura2: boolean = false,
+  larguraDisponivel: number,
+  somenteLargura2: boolean = false,
 ): largura_e_batida {
   let largura = 0;
   let count = 0;
 
-  if (!somente_largura2) {
-    while (largura + navalha.medida.largura2 <= largura_disponivel) {
+  if (!somenteLargura2) {
+    while (largura + navalha.medida.largura2 <= larguraDisponivel) {
       if (count == 1) {
         largura = largura + navalha.medida.largura1;
       } else {
@@ -71,7 +71,7 @@ function get_largura_e_batidas(
       largura_total: largura,
     };
   } else {
-    while (largura + navalha.medida.largura2 <= largura_disponivel) {
+    while (largura + navalha.medida.largura2 <= larguraDisponivel) {
       largura = largura + navalha.medida.largura2;
 
       count = count + 1;
@@ -108,7 +108,7 @@ function getLarguraOcupada(
  * Retorna a informação de quantas batidas a navalha 2 faz de acordo com o
  * tamanho da mesa e a quantidade de batidas da navalha 1.
  */
-function get_larguras_e_batidas_combinadas(
+function getLargurasEBatidasCombinadas(
   navalha1: navalha,
   navalha2: navalha,
   qtd_bat_nav1: number,
@@ -124,7 +124,7 @@ function get_larguras_e_batidas_combinadas(
 
   const somenteLargura2 = qtd_bat_nav1 > 0 || navalha2.medida.largura1 === 0;
 
-  const resultadoNav2 = get_largura_e_batidas(
+  const resultadoNav2 = getLarguraEBatidas(
     navalha2,
     larguraDisponivelNav2,
     somenteLargura2,
@@ -147,7 +147,7 @@ function get_larguras_e_batidas_combinadas(
  * @param largura_mesa Valor da largura da mesa em centímetros.
  * @param rangeMaxBatidas Quantidades de batidas que serão testadas. Por padrão utiliza os valores de 0 a 19.
  */
-export function melhores_batidas(
+export function getMelhoresBatidas(
   navalhas: navalha[],
   largura_mesa: number,
   rangeMaxBatidas?: number[],
@@ -168,7 +168,7 @@ export function melhores_batidas(
       const melhoresBatidas: batidas_combinadas[] = [];
 
       rangeMaxBatidas.forEach((num) => {
-        const resultado = get_larguras_e_batidas_combinadas(
+        const resultado = getLargurasEBatidasCombinadas(
           nav1,
           nav2,
           num,
@@ -207,11 +207,11 @@ export function melhores_batidas(
  * @param {navalha[]} navalha2 - Array de navalhas 2
  * @param {Record<string, number>} qtdPares - Quantidade de pares por numeração
  */
-export function get_consumo(
+export function getConsumoPorNavalha(
   navalha1: navalha[],
   navalha2: navalha[],
   qtdPares: Record<string, number>,
-): consumos {
+): consumoPorNavalha {
   const consumoPorNumNav1 = navalha1.reduce(
     (acc, navalha) => {
       acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
@@ -240,16 +240,17 @@ export function get_consumo(
 }
 
 /**
- * 
+ *
  * @param {ReservaDeTons[]} reservaDeTons - Array com os tons dispovíveis e a quantidade reservada para cada tom
- * @param consumos 
- * @returns 
+ * @param consumos
+ * @returns
  */
 
 export function getDivisaoDeTonalidades(
-  reservaDeTons: ReservaTon[],
-  consumos: consumos,
+  reservaDeTons: ReservaDeTons[],
+  consumos: consumoPorNavalha,
 ): tonalidade[] {
+  // Reserva de tons ordenadas da maior reserva até menor reserva
   const reservasOrdenadas = [...reservaDeTons].sort(
     (a, b) => b.reserva - a.reserva,
   );
@@ -262,11 +263,12 @@ export function getDivisaoDeTonalidades(
     {} as Record<string, number>,
   );
 
-  const resultado: tonalidade[] = [];
+  const divisaoDeTonalidades: tonalidade[] = [];
 
   let indiceReserva = 0;
 
-  let atual: tonalidade = {
+  //Cria um objeto de tonalidade ja considerando a tonalidade de maior reserva
+  let tonalidadeAtual: tonalidade = {
     ton: reservasOrdenadas[0]!.ton,
     reserva: reservasOrdenadas[0]!.reserva,
     tamanhos: [],
@@ -274,10 +276,12 @@ export function getDivisaoDeTonalidades(
 
   let reservaRestante = reservasOrdenadas[0]!.reserva;
 
-  for (const [tamanho, consumo] of Object.entries(consumosCombinados)) {
-    // não cabe na tonalidade atual
-    if (consumo > reservaRestante) {
-      resultado.push(atual);
+  for (const [tamanho, consumoCombinado] of Object.entries(
+    consumosCombinados,
+  )) {
+    // se o consumo combinado não cabe na tonalidade atual
+    if (consumoCombinado > reservaRestante) {
+      divisaoDeTonalidades.push(tonalidadeAtual);
 
       indiceReserva++;
 
@@ -287,7 +291,7 @@ export function getDivisaoDeTonalidades(
         );
       }
 
-      atual = {
+      tonalidadeAtual = {
         ton: reservasOrdenadas[indiceReserva]!.ton,
         reserva: reservasOrdenadas[indiceReserva]!.reserva,
         tamanhos: [],
@@ -296,13 +300,13 @@ export function getDivisaoDeTonalidades(
       reservaRestante = reservasOrdenadas[indiceReserva]!.reserva;
     }
 
-    atual.tamanhos.push(tamanho);
-    reservaRestante -= consumo;
+    tonalidadeAtual.tamanhos.push(tamanho);
+    reservaRestante -= consumoCombinado;
   }
 
-  resultado.push(atual);
+  divisaoDeTonalidades.push(tonalidadeAtual);
 
-  return resultado;
+  return divisaoDeTonalidades;
 }
 
 /**

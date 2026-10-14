@@ -1,32 +1,19 @@
+import { navsGaspeaExt, navsGaspeaInt } from "./navalha.data.js";
+import { ton, type ReservaTon } from "./navalhas.model.js";
 import {
-  ton,
-  type consumos as consumosNavsGaspea,
-  type navalha,
-  type ReservaTon,
-  type tonalidade,
-} from "./navalhas.model.js";
-import {
-  navsCabedal,
-  navsGaspeaExt,
-  navsGaspeaInt,
-  navsLingueta,
-} from "./navalha.data.js";
-import {
-  escreverArquivo,
-  get_consumo,
+  getConsumoPorNavalha,
   getDivisaoDeTonalidades,
-  melhores_batidas,
 } from "./navalhas.utils.js";
-import { writeFileSync } from "node:fs";
 
-const NUM_BATIDAS_RANGE_MAX = Array.from({ length: 20 }, (_, index) => index);
-
-const larguraMesa = {
+const LARGURA_MESA = {
   cabedal: 142,
   lingueta: 143,
   gaspea_interna: 139,
   gaspea_externa: 139,
 };
+
+const nav1GaspeaInt = [...navsGaspeaInt];
+const nav2GaspeaExt = [...navsGaspeaExt];
 
 const paresPorGrade: Record<string, number> = {
   "334": 43,
@@ -41,51 +28,11 @@ const paresPorGrade: Record<string, number> = {
   "45": 44,
 };
 
-const melhoresBatidasCabedal = melhores_batidas(
-  navsCabedal,
-  larguraMesa.cabedal,
-  NUM_BATIDAS_RANGE_MAX,
-  tonalidadesGaspeaInterna,
-);
-
-// const melhoresBatidasLingueta = melhores_batidas(
-//   navsLingueta,
-//   larguraMesa.lingueta,
-//   NUM_BATIDAS_RANGE_MAX,
-//   tonalidadesGaspeaExterna,
-// );
-// const melhoresBatidasGaspeaInterna = melhores_batidas(
-//   navsGaspeaInt,
-//   larguraMesa.gaspea_interna,
-//   NUM_BATIDAS_RANGE_MAX,
-//   tonalidadesGaspeaInterna,
-// );
-
-// const melhoresBatidasGaspeaExterna = melhores_batidas(
-//   navsGaspeaExt,
-//   larguraMesa.gaspea_externa,
-//   NUM_BATIDAS_RANGE_MAX,
-//   tonalidadesGaspeaExterna,
-// );
-
-const consumosNavsGaspea = get_consumo(
-  navsGaspeaInt,
-  larguraMesa.gaspea_interna,
-  NUM_BATIDAS_RANGE_MAX,
-  tonalidadesGaspeaExterna,
-);
-
-const melhoresBatidasGaspeaExterna = melhores_batidas(
-  navsGaspeaExt,
+const consumoGaspea = getConsumoPorNavalha(
+  nav1GaspeaInt,
+  nav2GaspeaExt,
   paresPorGrade,
 );
-writeFileSync(
-  "saidas/consulmos.json",
-  JSON.stringify(consumosNavsGaspea, null, 2),
-  "utf-8",
-);
-
-// escreverArquivo("json", melhoresBatidasCabedal, "melhoresBatidasCabedal");
 
 const reservaDeTons: ReservaTon[] = [
   {
@@ -102,6 +49,7 @@ const reservaDeTons: ReservaTon[] = [
   },
 ];
 
-
-
-console.log(dividirTonalidades(reservaDeTons, consumos));
+console.log(
+  "Divisão de tonalidades para navalhas gaspea interna e externa: \n",
+  getDivisaoDeTonalidades(reservaDeTons, consumoGaspea),
+);
