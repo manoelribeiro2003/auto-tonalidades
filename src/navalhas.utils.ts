@@ -47,7 +47,7 @@ export type consumoDeNavalhas = {
  * @param {bool} somenteLargura2 - Caso queira que a função considere apenas a largura 2 da navalha
  * @returns {largura_e_batida} - Retorna um objeto com a quantidade máxima de batidas e a largura máxima das batidas
  */
-function getLarguraEBatidas(
+function _getLarguraEBatidas(
   navalha: navalha,
   larguraDisponivel: number,
   somenteLargura2: boolean = false,
@@ -84,7 +84,14 @@ function getLarguraEBatidas(
   }
 }
 
-function getLarguraOcupada(
+/**
+ * Retorna a largura ocupada de uma sequencia com base na qtd de batidas
+ * @param largura1 - Largura 1 da navalha
+ * @param largura2 - Largura 2 da navalha
+ * @param batidas - Qtd de batidas da sequencia
+ * @returns 
+ */
+function _getLarguraOcupada(
   largura1: number,
   largura2: number,
   batidas: number,
@@ -108,13 +115,13 @@ function getLarguraOcupada(
  * Retorna a informação de quantas batidas a navalha 2 faz de acordo com o
  * tamanho da mesa e a quantidade de batidas da navalha 1.
  */
-function getLargurasEBatidasCombinadas(
+export function getLargurasEBatidasCombinadas(
   navalha1: navalha,
   navalha2: navalha,
   qtd_bat_nav1: number,
   largura_mesa: number,
 ): batidas_combinadas {
-  const larguraOcupacaoNav1 = getLarguraOcupada(
+  const larguraOcupacaoNav1 = _getLarguraOcupada(
     navalha1.medida.largura1,
     navalha1.medida.largura2,
     qtd_bat_nav1,
@@ -124,7 +131,7 @@ function getLargurasEBatidasCombinadas(
 
   const somenteLargura2 = qtd_bat_nav1 > 0 || navalha2.medida.largura1 === 0;
 
-  const resultadoNav2 = getLarguraEBatidas(
+  const resultadoNav2 = _getLarguraEBatidas(
     navalha2,
     larguraDisponivelNav2,
     somenteLargura2,

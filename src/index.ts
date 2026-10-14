@@ -3,6 +3,7 @@ import { ton, type ReservaTon } from "./navalhas.model.js";
 import {
   getConsumoDasNavalhas,
   getDivisaoDeTonalidades,
+  getMelhoresBatidas,
 } from "./navalhas.utils.js";
 
 const LARGURA_MESA = {
@@ -14,8 +15,6 @@ const LARGURA_MESA = {
 
 const nav1GaspeaInt = [...navsGaspeaInt];
 const nav2GaspeaExt = [...navsGaspeaExt];
-
-
 
 const paresPorGrade: Record<string, number> = {
   "334": 43,
@@ -29,14 +28,6 @@ const paresPorGrade: Record<string, number> = {
   "434": 53,
   "45": 44,
 };
-
-const consumoDasGaspeas = getConsumoDasNavalhas(
-  nav1GaspeaInt,
-  nav2GaspeaExt,
-  paresPorGrade,
-);
-
-
 
 const reservaDeTons: ReservaTon[] = [
   {
@@ -53,4 +44,10 @@ const reservaDeTons: ReservaTon[] = [
   },
 ];
 
-getDivisaoDeTonalidades(reservaDeTons, consumoDasGaspeas)
+
+const consumoDasGaspeas = getConsumoDasNavalhas(
+  nav1GaspeaInt,
+  nav2GaspeaExt,
+  paresPorGrade,
+);
+getDivisaoDeTonalidades(reservaDeTons, consumoDasGaspeas);
