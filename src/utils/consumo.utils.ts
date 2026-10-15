@@ -4,13 +4,14 @@ import type {
   tipoNavalha,
   tonalidade,
 } from "../data/navalhas.model.js";
+import { type melhores_batidas } from "./batidas_e_larguras.utils.js";
 
 // ==================================================================================================================================================================
 /**
  * Objeto que mostra a informação do consumo para as duas navalhas, onde a propriedade 'tipo' se refere ao tipo da navalha e
  * 'consumo' se refere a um objeto chave-valor do consumo por numeração
  */
-export type consumoPorNavalha = {
+export type consumoDasNavalhas = {
   nav1: {
     tipo: tipoNavalha;
     consumo: Record<string, number>;
@@ -30,7 +31,7 @@ export function getConsumoDasNavalhas(
   navalha1: navalha[],
   navalha2: navalha[],
   qtdPares: Record<string, number>,
-): consumoPorNavalha {
+): consumoDasNavalhas {
   const consumoPorNumNav1 = navalha1.reduce(
     (acc, navalha) => {
       acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
@@ -57,28 +58,28 @@ export function getConsumoDasNavalhas(
     },
   };
 }
+
 // ==================================================================================================================================================================
 /**
- * Função que retorna a divisão de tonalidades
- *
- * @param {ReservaDeTom[]} reservaDeTons - Array com a quantidade reservado de tons pelo programa
- * @param {consumoPorNavalha} consumoPorNavalha - Objeto com as informações de consumo de cada navalha
- * @returns
+ * Função que retorna a divisão de tonalidades com base nas melhores batidas, reserva de tons e as melhores batidas das duas navalhas
+ * @param {ReservaDeTom[]} reservasDeTons Array com a quantidade reservado de tons pelo programa
+ * @param {consumoDasNavalhas} consumoDasNavalhas Objeto com as informações de consumo de cada navalha
+ * @returns {tonalidade[]} Array com a divisão de tonalidades para cada tipo de navalha
  */
 export function getDivisaoDeTonalidades(
-  reservaDeTons: ReservaDeTom[],
-  consumoPorNavalha: consumoPorNavalha,
+  reservasDeTons: ReservaDeTom[],
+  consumoDasNavalhas: consumoDasNavalhas,
 ): tonalidade[] {
   // Reserva de tons ordenadas da maior reserva até menor reserva
-  const reservasOrdenadas = [...reservaDeTons].sort(
+  const reservasOrdenadas = [...reservasDeTons].sort(
     (a, b) => b.reserva - a.reserva,
   );
 
   const consumosCombinados = Object.entries(
-    consumoPorNavalha.nav1.consumo,
+    consumoDasNavalhas.nav1.consumo,
   ).reduce(
     (acc, [chave, valor]) => {
-      acc[chave] = valor + (consumoPorNavalha.nav2.consumo[chave] ?? 0);
+      acc[chave] = valor + (consumoDasNavalhas.nav2.consumo[chave] ?? 0);
       return acc;
     },
     {} as Record<string, number>,

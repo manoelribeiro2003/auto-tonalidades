@@ -25,3 +25,22 @@ A função `melhores_batidas()` usa um array de tonalidades apenas para fazer a 
 O certo deveria ser o metodo `getDivisaoDeTonalidades()` levar em consideração as melhores batidas.
 Atualmente nesta branch o metodo `melhores_batidas()` não está mais levando em consideração a divisão de tonalidades. 
 Deverá então o metodo `getDivisaoDeTonalidades()` implementar a divisão com base nas melhores batidas.
+
+
+
+
+
+- Eu nao posso pegar aquele que é o primeiro, pq pode ser que uma das navalhas tenha a qtd de batidas zerada
+
+- Tenho que levar em consideração a qtd de pares a serem produzidos de cada tamanho: 
+o tamanho 1 deverá ser aquele que tem a quantidade maior de pares a produzir em relação a qtd de pares do tamanho 2
+
+- O tamanho 1 (que tem a maior quantidade de pares a produzir) deverá ter a proxima sequencia de batidas sozinho:
+quando a qtd de pares do tamanho 2 tiver acabado, a proxima sequencia de batida será a do tamanho 1
+
+As proximas sequencias não deverá levar em consideração um tamanho que ja foi escolhido anteriormente
+
+
+
+
+- primeiro comeco pelo maior tom

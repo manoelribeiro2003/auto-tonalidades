@@ -1,6 +1,18 @@
 import { navsGaspeaExt, navsGaspeaInt } from "./data/navalha.data.js";
-import { tom, type ReservaDeTom } from "./data/navalhas.model.js";
-import { getConsumoDasNavalhas, getDivisaoDeTonalidades } from "./utils/consumo.utils.js";
+import {
+  tom,
+  type ReservaDeTom,
+  type tonalidade,
+} from "./data/navalhas.model.js";
+import {
+  getMelhoresBatidas,
+  type batidas_combinadas,
+  type melhores_batidas,
+} from "./utils/batidas_e_larguras.utils.js";
+import {
+  getConsumoDasNavalhas,
+  type consumoDasNavalhas,
+} from "./utils/consumo.utils.js";
 
 const LARGURA_MESA = {
   cabedal: 142,
@@ -40,10 +52,9 @@ const reservaDeTons: ReservaDeTom[] = [
   },
 ];
 
-
 const consumoDasGaspeas = getConsumoDasNavalhas(
   nav1GaspeaInt,
   nav2GaspeaExt,
   paresPorGrade,
 );
-getDivisaoDeTonalidades(reservaDeTons, consumoDasGaspeas);
+

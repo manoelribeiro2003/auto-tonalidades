@@ -52,6 +52,7 @@ function _getLarguraEBatidas(
     };
   }
 }
+
 // ==================================================================================================================================================================
 /**
  * Retorna a largura ocupada de uma sequencia de batidas de uma unica navalha
@@ -79,6 +80,7 @@ function _getLarguraOcupada(
 
   return largura1 + largura2 * (batidas - 1);
 }
+
 // ==================================================================================================================================================================
 export type batidas_combinadas = {
   tamanho_nav1: string;
@@ -125,17 +127,31 @@ export function getLargurasEBatidasCombinadas(
 }
 // ==================================================================================================================================================================
 /**
+ * Representa o resultado do cálculo das melhores combinações de batidas.
+ *
+ * @property todasCombinacoesDeBatidas - Objeto indexado por numeração. Cada chave
+ * corresponde a um tamanho e seu valor contém as melhores combinações de
+ * batidas encontradas para aquela numeração.
+ *
+ * @property logs - Registro detalhado do processamento em formato de texto,
+ * utilizado para depuração, auditoria ou análise dos resultados gerados.
+ */
+export type melhores_batidas = {
+  todasCombinacoesDeBatidas: Record<string, batidas_combinadas[]>;
+  logs: string;
+};
+/**
  * Retorna a informação de quais são as melhores combinações de batidas por navalha.
  *
  * @param navalhas Array contendo as navalhas a serem testadas por numeração.
- * @param largura_mesa Valor da largura da mesa em centímetros.
+ * @param largura_mesa Valor da largura total da mesa em centímetros.
  * @param rangeMaxBatidas Quantidades de batidas que serão testadas. Por padrão utiliza os valores de 0 a 19.
  */
 export function getMelhoresBatidas(
   navalhas: navalha[],
   largura_mesa: number,
   rangeMaxBatidas?: number[],
-) {
+): melhores_batidas {
   rangeMaxBatidas ??= Array.from({ length: 20 }, (_, index) => index);
 
   const melhores_batidas_por_num: Record<string, batidas_combinadas[]> = {};
@@ -180,7 +196,7 @@ export function getMelhoresBatidas(
   });
 
   return {
+    todasCombinacoesDeBatidas: melhores_batidas_por_num,
     logs: logs.join("\n"),
-    melhoresBatidasPorNum: melhores_batidas_por_num,
   };
 }
