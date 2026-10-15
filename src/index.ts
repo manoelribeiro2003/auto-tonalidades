@@ -1,10 +1,6 @@
-import { navsGaspeaExt, navsGaspeaInt } from "./navalha.data.js";
-import { ton, type ReservaTon } from "./navalhas.model.js";
-import {
-  getConsumoDasNavalhas,
-  getDivisaoDeTonalidades,
-  getMelhoresBatidas,
-} from "./navalhas.utils.js";
+import { navsGaspeaExt, navsGaspeaInt } from "./data/navalha.data.js";
+import { tom, type ReservaDeTom } from "./data/navalhas.model.js";
+import { getConsumoDasNavalhas, getDivisaoDeTonalidades } from "./utils/consumo.utils.js";
 
 const LARGURA_MESA = {
   cabedal: 142,
@@ -29,17 +25,17 @@ const paresPorGrade: Record<string, number> = {
   "45": 44,
 };
 
-const reservaDeTons: ReservaTon[] = [
+const reservaDeTons: ReservaDeTom[] = [
   {
-    ton: ton.ton2,
+    tom: tom.ton2,
     reserva: 24.7,
   },
   {
-    ton: ton.tonP,
+    tom: tom.tonP,
     reserva: 9.99,
   },
   {
-    ton: ton.ton1,
+    tom: tom.ton1,
     reserva: 40.8,
   },
 ];
