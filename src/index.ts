@@ -1,15 +1,16 @@
-import { navsGaspeaExt, navsGaspeaInt } from "./data/navalha.data.js";
 import {
-  tom,
-  type ReservaDeTom,
-} from "./data/navalhas.model.js";
+  navsCabedal,
+  navsGaspeaExt,
+  navsGaspeaInt,
+} from "./data/navalha.data.js";
+import { tom, type ReservaDeTom } from "./data/navalhas.model.js";
 import { escreverArquivo } from "./utils/arquivo.utils.js";
+import { getMelhoresBatidas } from "./utils/batidas_e_larguras.utils.js";
 import {
-  getMelhoresBatidas,
-} from "./utils/batidas_e_larguras.utils.js";
-import {
+  getNovoConsumoDasNavalhas,
   getConsumoDasNavalhas,
   getDivisaoDeTonalidades,
+  getNovaDivisaoDeTonalidades,
 } from "./utils/consumo.utils.js";
 
 const LARGURA_MESA = {
@@ -21,6 +22,7 @@ const LARGURA_MESA = {
 
 const nav1GaspeaInt = [...navsGaspeaInt];
 const nav2GaspeaExt = [...navsGaspeaExt];
+const nav1Cabedal = [...navsCabedal];
 
 const paresPorGrade: Record<string, number> = {
   "334": 43,
@@ -67,7 +69,22 @@ const melhoresBatidasGaspeaInt = getMelhoresBatidas(
   divTonalidadesGaspeas,
 );
 
-escreverArquivo('json', consumoDasGaspeas, 'consumoDasGaspeas')
-escreverArquivo('json', divTonalidadesGaspeas, 'divTonalidadesGaspeas')
-escreverArquivo('json', melhoresBatidasGaspeaInt, 'melhoresBatidasGaspeaInt')
-escreverArquivo('txt', melhoresBatidasGaspeaInt.logs, 'melhoresBatidasGaspeaInt')
+// escreverArquivo("json", consumoDasGaspeas, "consumoDasGaspeas");
+// escreverArquivo("json", divTonalidadesGaspeas, "divTonalidadesGaspeas");
+// escreverArquivo("json", melhoresBatidasGaspeaInt, "melhoresBatidasGaspeaInt");
+// escreverArquivo(
+//   "txt",
+//   melhoresBatidasGaspeaInt.logs,
+//   "melhoresBatidasGaspeaInt",
+// );
+const novoConsumoDasNavalhas = getNovoConsumoDasNavalhas(
+  [nav1GaspeaInt, nav2GaspeaExt],
+  paresPorGrade,
+);
+
+console.log("novoConsumoDasNavalhas: ", novoConsumoDasNavalhas);
+
+console.log(
+  "getNovaDivisaoDeTonalidades",
+  getNovaDivisaoDeTonalidades(reservaDeTons, novoConsumoDasNavalhas),
+);

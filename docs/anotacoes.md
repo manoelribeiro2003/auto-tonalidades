@@ -41,3 +41,13 @@ Deverá então o metodo `getDivisaoDeTonalidades()` implementar a divisão com b
 As proximas sequencias não deverá levar em consideração um tamanho que ja foi escolhido anteriormente
 
 - primeiro comeco pelo maior tom
+
+
+
+
+- Levar em consideração se são uma, duas ou mais navalhas que usam o mesmo material. Atualmente o algoritmo considera apenas uma!!!
+
+
+Inserido novos metodos para implementação de correção da divisão de tonalidades e divisão de consumos considerando uma ou mais navalhas e não apenas e somente duas.
+Para isso foram inseridos dois metodos no arquivo src/utils/consumo.utils.ts: `getNovaDivisaoDeTonalidades()` e `getNovoConsumoDasNavalhas()`.
+Os antigos metodos não foram excluidos do arquivo utils.
