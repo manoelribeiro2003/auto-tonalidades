@@ -1,4 +1,4 @@
-import type { navalha, tonalidade } from "../data/navalhas.model.js";
+import type { navalha, tonalidade } from "../data/models/navalhas.model.js";
 
 // ==================================================================================================================================================================
 /**

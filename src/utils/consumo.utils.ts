@@ -3,7 +3,7 @@ import type {
   ReservaDeTom,
   tipoNavalha,
   tonalidade,
-} from "../data/navalhas.model.js";
+} from "../data/models/navalhas.model.js";
 
 // ==================================================================================================================================================================
 /**

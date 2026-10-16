@@ -1,0 +1,72 @@
+[
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '334',
+    medida: { largura1: 0, largura2: 24.25, comprimento: 16.59 },
+    consumo: 32.54,
+    ordem: 0
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '35',
+    medida: { largura1: 0, largura2: 24.81, comprimento: 16.79 },
+    consumo: 31.7,
+    ordem: 1
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '36',
+    medida: { largura1: 0, largura2: 25.15, comprimento: 16.93 },
+    consumo: 30.8,
+    ordem: 2
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '378',
+    medida: { largura1: 0, largura2: 26.63, comprimento: 17.89 },
+    consumo: 27.41,
+    ordem: 3
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '39',
+    medida: { largura1: 0, largura2: 27.2, comprimento: 18.09 },
+    consumo: 26.84,
+    ordem: 4
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '40',
+    medida: { largura1: 0, largura2: 27.55, comprimento: 18.24 },
+    consumo: 26.38,
+    ordem: 5
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '41',
+    medida: { largura1: 0, largura2: 27.88, comprimento: 18.39 },
+    consumo: 20.94,
+    ordem: 6
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '42',
+    medida: { largura1: 0, largura2: 29.28, comprimento: 19.35 },
+    consumo: 19.91,
+    ordem: 7
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '434',
+    medida: { largura1: 0, largura2: 29.87, comprimento: 19.56 },
+    consumo: 19.72,
+    ordem: 8
+  },
+  {
+    tipo: 'GÁSPEA INTERNA',
+    tamanho: '45',
+    medida: { largura1: 0, largura2: 30.4, comprimento: 19.78 },
+    consumo: 21.86,
+    ordem: 9
+  }
+]

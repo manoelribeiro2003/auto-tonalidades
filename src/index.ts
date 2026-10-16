@@ -1,9 +1,9 @@
-import {
-  navsCabedal,
-  navsGaspeaExt,
-  navsGaspeaInt,
-} from "./data/navalha.data.js";
-import { tom, type ReservaDeTom } from "./data/navalhas.model.js";
+import { navsCabedal } from "./data/mocks/cabedal.js";
+import { navsGaspeaExt } from "./data/mocks/gaspeaExterna.js";
+import { navsGaspeaInt } from "./data/mocks/gaspeaInterna.js";
+import { navsLingueta } from "./data/mocks/lingueta.js";
+import { tom } from "./data/models/enums/tom.enum.js";
+import type { ReservaDeTom } from "./data/models/types/reservaDeTom.js";
 import { escreverArquivo } from "./utils/arquivo.utils.js";
 import { getMelhoresBatidas } from "./utils/batidas_e_larguras.utils.js";
 import {
@@ -77,14 +77,23 @@ const melhoresBatidasGaspeaInt = getMelhoresBatidas(
 //   melhoresBatidasGaspeaInt.logs,
 //   "melhoresBatidasGaspeaInt",
 // );
-const novoConsumoDasNavalhas = getNovoConsumoDasNavalhas(
-  [nav1GaspeaInt, nav2GaspeaExt],
-  paresPorGrade,
-);
+// const novoConsumoDasNavalhas = getNovoConsumoDasNavalhas(
+//   [nav1GaspeaInt, nav2GaspeaExt],
+//   paresPorGrade,
+// );
 
-console.log("novoConsumoDasNavalhas: ", novoConsumoDasNavalhas);
+// console.log("novoConsumoDasNavalhas: ", novoConsumoDasNavalhas);
+
+// console.log(
+//   "getNovaDivisaoDeTonalidades",
+//   getNovaDivisaoDeTonalidades(reservaDeTons, novoConsumoDasNavalhas),
+// );
 
 console.log(
-  "getNovaDivisaoDeTonalidades",
-  getNovaDivisaoDeTonalidades(reservaDeTons, novoConsumoDasNavalhas),
+  navsLingueta.map((nav, index) => {
+    return {
+      ...nav,
+      ordem: index,
+    };
+  }),
 );
