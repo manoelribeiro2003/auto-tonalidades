@@ -1,9 +1,7 @@
-import type {
-  navalha,
-  ReservaDeTom,
-  tipoNavalha,
-  tonalidade,
-} from "../data/models/navalhas.model.js";
+import type { tipoNavalha } from "../data/models/enums/tipoNavalha.enum.js";
+import type { navalha } from "../data/models/types/navalha.type.js";
+import type { ReservaDeTom } from "../data/models/types/reservaDeTom.type.js";
+import type { tonalidade } from "../data/models/types/tonalidade.type.js";
 
 // ==================================================================================================================================================================
 /**
@@ -33,38 +31,6 @@ export type novoConsumoDasNavalhas = {
  * @param {Record<string, number>} qtdPares - Quantidade de pares por numeração
  */
 export function getConsumoDasNavalhas(
-  navalha1: navalha[],
-  navalha2: navalha[],
-  qtdPares: Record<string, number>,
-): consumoDasNavalhas {
-  const consumoPorNumNav1 = navalha1.reduce(
-    (acc, navalha) => {
-      acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
-      return acc;
-    },
-    {} as Record<string, number>,
-  );
-  const consumoPorNumNav2 = navalha2.reduce(
-    (acc, navalha) => {
-      acc[navalha.tamanho] = qtdPares[navalha.tamanho]! / navalha.consumo;
-      return acc;
-    },
-    {} as Record<string, number>,
-  );
-
-  return {
-    nav1: {
-      tipo: navalha1.at(0)!.tipo,
-      consumo: consumoPorNumNav1,
-    },
-    nav2: {
-      tipo: navalha2.at(0)!.tipo,
-      consumo: consumoPorNumNav2,
-    },
-  };
-}
-
-export function getNovoConsumoDasNavalhas(
   navalhas: navalha[][],
   qtdPares: Record<string, number>,
 ): novoConsumoDasNavalhas[] {
@@ -94,71 +60,6 @@ export function getNovoConsumoDasNavalhas(
  */
 export function getDivisaoDeTonalidades(
   reservasDeTons: ReservaDeTom[],
-  consumoDasNavalhas: consumoDasNavalhas,
-): tonalidade[] {
-  // Reserva de tons ordenadas da maior reserva até menor reserva
-  const reservasOrdenadas = [...reservasDeTons].sort(
-    (a, b) => b.reserva - a.reserva,
-  );
-
-  const consumosCombinados = Object.entries(
-    consumoDasNavalhas.nav1.consumo,
-  ).reduce(
-    (acc, [chave, valor]) => {
-      acc[chave] = valor + (consumoDasNavalhas.nav2.consumo[chave] ?? 0);
-      return acc;
-    },
-    {} as Record<string, number>,
-  );
-
-  const divisaoDeTonalidades: tonalidade[] = [];
-
-  let indiceReserva = 0;
-
-  //Cria um objeto de tonalidade ja considerando a tonalidade de maior reserva
-  let tonalidadeAtual: tonalidade = {
-    tom: reservasOrdenadas[0]!.tom,
-    reserva: 0,
-    tamanhos: [],
-  };
-
-  let reservaRestante = reservasOrdenadas[0]!.reserva;
-
-  for (const [tamanho, consumosSomado] of Object.entries(consumosCombinados)) {
-    // se o consumo somado não cabe na tonalidade atual
-    if (consumosSomado > reservaRestante) {
-      divisaoDeTonalidades.push(tonalidadeAtual);
-
-      indiceReserva++;
-
-      if (indiceReserva >= reservasOrdenadas.length) {
-        throw new Error(
-          `Sem reserva suficiente para alocar o tamanho ${tamanho}`,
-        );
-      }
-
-      // definindo a nova tonalidade atual
-      tonalidadeAtual = {
-        tom: reservasOrdenadas[indiceReserva]!.tom,
-        reserva: 0,
-        tamanhos: [],
-      };
-
-      reservaRestante = reservasOrdenadas[indiceReserva]!.reserva;
-    }
-
-    tonalidadeAtual.tamanhos.push(tamanho);
-    tonalidadeAtual.reserva += consumosSomado;
-    reservaRestante -= consumosSomado;
-  }
-
-  divisaoDeTonalidades.push(tonalidadeAtual);
-
-  return divisaoDeTonalidades;
-}
-
-export function getNovaDivisaoDeTonalidades(
-  reservasDeTons: ReservaDeTom[],
   consumosDasNavalhas: novoConsumoDasNavalhas[],
 ): tonalidade[] {
   // Reserva de tons ordenadas da maior reserva até a menor
@@ -167,16 +68,15 @@ export function getNovaDivisaoDeTonalidades(
   );
 
   // Combina os consumos de todas as navalhas por tamanho
-  const consumosCombinados = consumosDasNavalhas.reduce(
-    (acc, navalha) => {
-      for (const [tamanho, consumo] of Object.entries(navalha.consumo)) {
-        acc[tamanho] = (acc[tamanho] ?? 0) + consumo;
-      }
+  const consumosCombinados = consumosDasNavalhas.reduce((acc, navalha) => {
+    for (const [tamanho, consumo] of Object.entries(navalha.consumo)) {
+      acc.set(tamanho, (acc.get(tamanho) ?? 0) + consumo);
+    }
 
-      return acc;
-    },
-    {} as Record<string, number>,
-  );
+    return acc;
+  }, new Map<string, number>());
+
+  console.log("consumosCombinados:", consumosCombinados);
 
   const divisaoDeTonalidades: tonalidade[] = [];
 
@@ -234,3 +134,82 @@ export function getNovaDivisaoDeTonalidades(
 
   return divisaoDeTonalidades;
 }
+// export function getDivisaoDeTonalidades(
+//   reservasDeTons: ReservaDeTom[],
+//   consumosDasNavalhas: novoConsumoDasNavalhas[],
+// ): tonalidade[] {
+//   // Reserva de tons ordenadas da maior reserva até a menor
+//   const reservasOrdenadas = [...reservasDeTons].sort(
+//     (a, b) => b.reserva - a.reserva,
+//   );
+
+//   // Combina os consumos de todas as navalhas por tamanho
+//   const consumosCombinados = consumosDasNavalhas.reduce(
+//     (acc, navalha) => {
+//       for (const [tamanho, consumo] of Object.entries(navalha.consumo)) {
+//         acc[tamanho] = (acc[tamanho] ?? 0) + consumo;
+//       }
+
+//       return acc;
+//     },
+//     {} as Record<string, number>,
+//   );
+
+//   console.log('consumosCombinados: ', consumosCombinados);
+
+//   const divisaoDeTonalidades: tonalidade[] = [];
+
+//   if (reservasOrdenadas.length === 0) {
+//     if (Object.keys(consumosCombinados).length > 0) {
+//       throw new Error("Não existem reservas de tons disponíveis.");
+//     }
+
+//     return divisaoDeTonalidades;
+//   }
+
+//   let indiceReserva = 0;
+
+//   // Cria a tonalidade inicial considerando a maior reserva
+//   let tonalidadeAtual: tonalidade = {
+//     tom: reservasOrdenadas[0]!.tom,
+//     reserva: 0,
+//     tamanhos: [],
+//   };
+
+//   let reservaRestante = reservasOrdenadas[0]!.reserva;
+
+//   for (const [tamanho, consumoSomado] of Object.entries(consumosCombinados)) {
+//     // Se o consumo não cabe na reserva atual, passa para a próxima
+//     if (consumoSomado > reservaRestante) {
+//       if (tonalidadeAtual.tamanhos.length > 0) {
+//         divisaoDeTonalidades.push(tonalidadeAtual);
+//       }
+
+//       indiceReserva++;
+
+//       if (indiceReserva >= reservasOrdenadas.length) {
+//         throw new Error(
+//           `Sem reserva suficiente para alocar o tamanho ${tamanho}`,
+//         );
+//       }
+
+//       tonalidadeAtual = {
+//         tom: reservasOrdenadas[indiceReserva]!.tom,
+//         reserva: 0,
+//         tamanhos: [],
+//       };
+
+//       reservaRestante = reservasOrdenadas[indiceReserva]!.reserva;
+//     }
+
+//     tonalidadeAtual.tamanhos.push(tamanho);
+//     tonalidadeAtual.reserva += consumoSomado;
+//     reservaRestante -= consumoSomado;
+//   }
+
+//   if (tonalidadeAtual.tamanhos.length > 0) {
+//     divisaoDeTonalidades.push(tonalidadeAtual);
+//   }
+
+//   return divisaoDeTonalidades;
+// }

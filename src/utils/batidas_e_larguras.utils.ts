@@ -1,4 +1,5 @@
-import type { navalha, tonalidade } from "../data/models/navalhas.model.js";
+import type { navalha } from "../data/models/types/navalha.type.js";
+import type { tonalidade } from "../data/models/types/tonalidade.type.js";
 
 // ==================================================================================================================================================================
 /**
@@ -171,7 +172,7 @@ export function getMelhoresBatidas(
       const tonalidadeNav2 = tonalidades.find((ton) =>
         ton.tamanhos.includes(nav2.tamanho),
       )?.tom;
-      
+
       if (nav1.tamanho === nav2.tamanho || tonalidadeNav1 !== tonalidadeNav2)
         return;
 

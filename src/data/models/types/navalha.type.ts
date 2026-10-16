@@ -5,6 +5,7 @@ import type { tipoNavalha } from "../enums/tipoNavalha.enum.js";
  */
 export type navalha = {
   tipo: tipoNavalha;
+  ordem: number,
   tamanho: string;
   consumo: number;
   medida: {

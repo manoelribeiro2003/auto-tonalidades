@@ -3,14 +3,15 @@ import { navsGaspeaExt } from "./data/mocks/gaspeaExterna.js";
 import { navsGaspeaInt } from "./data/mocks/gaspeaInterna.js";
 import { navsLingueta } from "./data/mocks/lingueta.js";
 import { tom } from "./data/models/enums/tom.enum.js";
-import type { ReservaDeTom } from "./data/models/types/reservaDeTom.js";
+import type { ReservaDeTom } from "./data/models/types/reservaDeTom.type.js";
 import { escreverArquivo } from "./utils/arquivo.utils.js";
-import { getMelhoresBatidas } from "./utils/batidas_e_larguras.utils.js";
 import {
-  getNovoConsumoDasNavalhas,
+  getLargurasEBatidasCombinadas,
+  getMelhoresBatidas,
+} from "./utils/batidas_e_larguras.utils.js";
+import {
   getConsumoDasNavalhas,
   getDivisaoDeTonalidades,
-  getNovaDivisaoDeTonalidades,
 } from "./utils/consumo.utils.js";
 
 const LARGURA_MESA = {
@@ -52,48 +53,28 @@ const reservaDeTons: ReservaDeTom[] = [
   },
 ];
 
-const consumoDasGaspeas = getConsumoDasNavalhas(
-  nav1GaspeaInt,
-  nav2GaspeaExt,
+const consumoDasGaspeas = getConsumoDasNavalhas( //OK
+  [nav1GaspeaInt, nav2GaspeaExt],
   paresPorGrade,
 );
+// escreverArquivo('json', consumoDasGaspeas, 'consumoDasGaspeas')
 
 const divTonalidadesGaspeas = getDivisaoDeTonalidades(
   reservaDeTons,
   consumoDasGaspeas,
 );
+escreverArquivo('json', divTonalidadesGaspeas, 'divTonalidadesGaspeas')
 
 const melhoresBatidasGaspeaInt = getMelhoresBatidas(
   nav1GaspeaInt,
-  LARGURA_MESA.cabedal,
+  LARGURA_MESA.gaspea_interna,
   divTonalidadesGaspeas,
 );
 
-// escreverArquivo("json", consumoDasGaspeas, "consumoDasGaspeas");
-// escreverArquivo("json", divTonalidadesGaspeas, "divTonalidadesGaspeas");
-// escreverArquivo("json", melhoresBatidasGaspeaInt, "melhoresBatidasGaspeaInt");
-// escreverArquivo(
-//   "txt",
-//   melhoresBatidasGaspeaInt.logs,
-//   "melhoresBatidasGaspeaInt",
-// );
-// const novoConsumoDasNavalhas = getNovoConsumoDasNavalhas(
-//   [nav1GaspeaInt, nav2GaspeaExt],
-//   paresPorGrade,
-// );
+escreverArquivo('txt', melhoresBatidasGaspeaInt.logs, "melhoresBatidasGaspeaInt")
 
-// console.log("novoConsumoDasNavalhas: ", novoConsumoDasNavalhas);
-
-// console.log(
-//   "getNovaDivisaoDeTonalidades",
-//   getNovaDivisaoDeTonalidades(reservaDeTons, novoConsumoDasNavalhas),
-// );
-
-console.log(
-  navsLingueta.map((nav, index) => {
-    return {
-      ...nav,
-      ordem: index,
-    };
-  }),
+const melhoresBatidasGaspeaExt = getMelhoresBatidas(
+  nav2GaspeaExt,
+  LARGURA_MESA.gaspea_externa,
+  divTonalidadesGaspeas,
 );
