@@ -2,16 +2,14 @@ import { navsGaspeaExt, navsGaspeaInt } from "./data/navalha.data.js";
 import {
   tom,
   type ReservaDeTom,
-  type tonalidade,
 } from "./data/navalhas.model.js";
+import { escreverArquivo } from "./utils/arquivo.utils.js";
 import {
   getMelhoresBatidas,
-  type batidas_combinadas,
-  type melhores_batidas,
 } from "./utils/batidas_e_larguras.utils.js";
 import {
   getConsumoDasNavalhas,
-  type consumoDasNavalhas,
+  getDivisaoDeTonalidades,
 } from "./utils/consumo.utils.js";
 
 const LARGURA_MESA = {
@@ -58,3 +56,18 @@ const consumoDasGaspeas = getConsumoDasNavalhas(
   paresPorGrade,
 );
 
+const divTonalidadesGaspeas = getDivisaoDeTonalidades(
+  reservaDeTons,
+  consumoDasGaspeas,
+);
+
+const melhoresBatidasGaspeaInt = getMelhoresBatidas(
+  nav1GaspeaInt,
+  LARGURA_MESA.cabedal,
+  divTonalidadesGaspeas,
+);
+
+escreverArquivo('json', consumoDasGaspeas, 'consumoDasGaspeas')
+escreverArquivo('json', divTonalidadesGaspeas, 'divTonalidadesGaspeas')
+escreverArquivo('json', melhoresBatidasGaspeaInt, 'melhoresBatidasGaspeaInt')
+escreverArquivo('txt', melhoresBatidasGaspeaInt.logs, 'melhoresBatidasGaspeaInt')

@@ -62,7 +62,7 @@ Demais
 
 ## Documentação
 
-A documentação detalhada do projeto pode ser encontrada na pasta [`docs`](./docscumentos disponíveis
+A documentação detalhada do projeto pode ser encontrada na pasta [`docs`](docs)
 
 - [Convenção de Commits](./docs/conventional-commits.md)
 - [Anotações](./docs/anotacoes.md)

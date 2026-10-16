@@ -1,4 +1,4 @@
-import type { navalha } from "../data/navalhas.model.js";
+import type { navalha, tonalidade } from "../data/navalhas.model.js";
 
 // ==================================================================================================================================================================
 /**
@@ -150,6 +150,7 @@ export type melhores_batidas = {
 export function getMelhoresBatidas(
   navalhas: navalha[],
   largura_mesa: number,
+  tonalidades: tonalidade[],
   rangeMaxBatidas?: number[],
 ): melhores_batidas {
   rangeMaxBatidas ??= Array.from({ length: 20 }, (_, index) => index);
@@ -162,8 +163,17 @@ export function getMelhoresBatidas(
       "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------",
     );
 
+    const tonalidadeNav1 = tonalidades.find((ton) =>
+      ton.tamanhos.includes(nav1.tamanho),
+    )?.tom;
+
     navalhas.forEach((nav2) => {
-      if (nav1.tamanho === nav2.tamanho) return;
+      const tonalidadeNav2 = tonalidades.find((ton) =>
+        ton.tamanhos.includes(nav2.tamanho),
+      )?.tom;
+      
+      if (nav1.tamanho === nav2.tamanho || tonalidadeNav1 !== tonalidadeNav2)
+        return;
 
       const melhoresBatidas: batidas_combinadas[] = [];
 
