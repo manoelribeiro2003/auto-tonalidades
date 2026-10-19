@@ -1,0 +1,2659 @@
+{
+  "tonalidades": [
+    {
+      "tom": "TONALIDADE 1",
+      "reserva": 40.780242947399095,
+      "tamanhos": [
+        "41",
+        "42",
+        "434",
+        "39",
+        "40",
+        "378",
+        "35",
+        "334"
+      ]
+    },
+    {
+      "tom": "TONALIDADE 2",
+      "reserva": 7.315991370076446,
+      "tamanhos": [
+        "45",
+        "36"
+      ]
+    }
+  ],
+  "melhoresBatidas": {
+    "todasCombinacoesDeBatidas": {
+      "35": [
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 123.49
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 122.92999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 122.37
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 121.81
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 131.32999999999998
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 129.51
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 127.69
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 125.86999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 133.60999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 131.22
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 128.82999999999998
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 126.44
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 135.01
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 132.27
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 129.53
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 126.78999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 136.32999999999998
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 133.26
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 130.19
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 127.11999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 137.46
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 132.99
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 128.51999999999998
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 112.65
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 134.17
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 129.10999999999999
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 114.42
+        },
+        {
+          "tamanho_nav1": "35",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 109.36
+        }
+      ],
+      "36": [
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 136.25
+        },
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 131
+        },
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 125.75
+        },
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 121.6
+        },
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 116.35
+        },
+        {
+          "tamanho_nav1": "36",
+          "tamanho_nav2": "45",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 111.1
+        }
+      ],
+      "39": [
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 133.05
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 130.1
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 127.15
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 124.2
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 133.60999999999999
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 131.22
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 128.82999999999998
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 126.44
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 135.43
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 134.85999999999999
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 134.29
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 133.72
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 137.4
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 137.05
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 136.7
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 136.35
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 138.72
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 138.04
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 137.35999999999999
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 136.68
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 138.07999999999998
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 115.04
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 112.96000000000001
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 110.88
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 138.67
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 116.81
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.14
+        },
+        {
+          "tamanho_nav1": "39",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 111.47
+        }
+      ],
+      "40": [
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 134.45
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 131.15
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 127.85
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 124.55
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 135.01
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 132.27
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 129.53
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 126.78999999999999
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 136.83
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 135.91
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 134.99
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 134.07
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 137.4
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 137.05
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 136.7
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 136.35
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 138.74
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 138.41
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 138.08
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 111.19
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 115.39
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 113.66
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 111.93
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 110.2
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 117.16
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.84
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 112.52000000000001
+        },
+        {
+          "tamanho_nav1": "40",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 110.2
+        }
+      ],
+      "41": [
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 135.76999999999998
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 132.14
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 128.51
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 124.88
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 136.32999999999998
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 133.26
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 130.19
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 127.11999999999999
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 138.15
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 136.9
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 135.65
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 134.4
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 138.72
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 138.04
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 137.35999999999999
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 136.68
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 138.74
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 138.41
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 138.08
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 115.72
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.32
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 112.92
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 117.49
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 115.5
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 113.51
+        },
+        {
+          "tamanho_nav1": "41",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 111.52
+        }
+      ],
+      "42": [
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 136.34
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 131.31
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 126.28
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 137.46
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 132.99
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 128.51999999999998
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 138.45
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 135.8
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 114.47
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 138.07999999999998
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 115.04
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 112.96000000000001
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 115.39
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 113.66
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 111.93
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 115.72
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.32
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 112.92
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 118.89
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 118.30000000000001
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 117.71000000000001
+        },
+        {
+          "tamanho_nav1": "42",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 117.12
+        }
+      ],
+      "45": [
+        {
+          "tamanho_nav1": "45",
+          "tamanho_nav2": "36",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 136.25
+        },
+        {
+          "tamanho_nav1": "45",
+          "tamanho_nav2": "36",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 131
+        },
+        {
+          "tamanho_nav1": "45",
+          "tamanho_nav2": "36",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 125.75
+        },
+        {
+          "tamanho_nav1": "45",
+          "tamanho_nav2": "36",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.6
+        },
+        {
+          "tamanho_nav1": "45",
+          "tamanho_nav2": "36",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 116.35
+        }
+      ],
+      "334": [
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 123.49
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 122.92999999999999
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 122.37
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 121.81
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 130.76999999999998
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 128.39
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 126.00999999999999
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 123.63
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 133.05
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 130.1
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 127.15
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 124.2
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 134.45
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 131.15
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 127.85
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 124.55
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 135.76999999999998
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 132.14
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 128.51
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 124.88
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 136.34
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 131.31
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 126.28
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 112.09
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 138.11
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 132.49
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 126.87
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "334",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 113.86
+        }
+      ],
+      "378": [
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 130.76999999999998
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 128.39
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 126.00999999999999
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 123.63
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 131.32999999999998
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 129.51
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 127.69
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 125.86999999999999
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 135.43
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 134.85999999999999
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 134.29
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 133.72
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 136.83
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 135.91
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 134.99
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 134.07
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 138.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 136.9
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 135.65
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 134.4
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 138.45
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 135.8
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 114.47
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 111.82
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 136.39
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 5,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 116.24
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 113
+        },
+        {
+          "tamanho_nav1": "378",
+          "tamanho_nav2": "434",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 109.76
+        }
+      ],
+      "434": [
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 138.11
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 132.49
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 126.87
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 121.25
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "334",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 134.17
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 129.10999999999999
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 124.05
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "35",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 114.42
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 136.39
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 133.15
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 116.24
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "378",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 113
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 138.67
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 136
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 116.81
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "39",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.14
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 5,
+          "largura_total": 137.75
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 117.16
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 114.84
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "40",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 112.52000000000001
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 117.49
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 115.5
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 113.51
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "41",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 111.52
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 4,
+          "qtd_batidas_nav2": 0,
+          "largura_total": 119.48
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 3,
+          "qtd_batidas_nav2": 1,
+          "largura_total": 118.89
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 2,
+          "qtd_batidas_nav2": 2,
+          "largura_total": 118.30000000000001
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 1,
+          "qtd_batidas_nav2": 3,
+          "largura_total": 117.71000000000001
+        },
+        {
+          "tamanho_nav1": "434",
+          "tamanho_nav2": "42",
+          "largura_mesa": 139,
+          "qtd_batidas_nav1": 0,
+          "qtd_batidas_nav2": 4,
+          "largura_total": 117.12
+        }
+      ]
+    },
+    "logs": "----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":123.49}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":122.92999999999999}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":122.37}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":121.81}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":130.76999999999998}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":128.39}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":126.00999999999999}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":123.63}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":133.05}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":130.1}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":127.15}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":124.2}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":134.45}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":131.15}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":127.85}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":124.55}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":135.76999999999998}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":132.14}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":128.51}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":124.88}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":136.34}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":131.31}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":126.28}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":112.09}\n\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":138.11}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":132.49}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":126.87}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":121.25}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"334\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":113.86}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":123.49}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":122.92999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":122.37}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":121.81}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":131.32999999999998}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":129.51}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":127.69}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":125.86999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":133.60999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":131.22}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":128.82999999999998}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":126.44}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":135.01}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":132.27}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":129.53}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":126.78999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":136.32999999999998}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":133.26}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":130.19}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":127.11999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":137.46}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":132.99}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":128.51999999999998}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":112.65}\n\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":134.17}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":129.10999999999999}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":114.42}\n{\"tamanho_nav1\":\"35\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":109.36}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":136.25}\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":131}\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":125.75}\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":121.6}\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":116.35}\n{\"tamanho_nav1\":\"36\",\"tamanho_nav2\":\"45\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":111.1}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":130.76999999999998}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":128.39}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":126.00999999999999}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":123.63}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":131.32999999999998}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":129.51}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":127.69}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":125.86999999999999}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":135.43}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":134.85999999999999}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":134.29}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":133.72}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":136.83}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":135.91}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":134.99}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":134.07}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":138.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":136.9}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":135.65}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":134.4}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":138.45}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":135.8}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":114.47}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":111.82}\n\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":136.39}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":116.24}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":113}\n{\"tamanho_nav1\":\"378\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":109.76}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":133.05}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":130.1}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":127.15}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":124.2}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":133.60999999999999}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":131.22}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":128.82999999999998}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":126.44}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":135.43}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":134.85999999999999}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":134.29}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":133.72}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":137.4}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":137.05}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":136.7}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":136.35}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":138.72}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":138.04}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":137.35999999999999}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":136.68}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":138.07999999999998}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":115.04}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":112.96000000000001}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":110.88}\n\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":138.67}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":136}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":116.81}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.14}\n{\"tamanho_nav1\":\"39\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":111.47}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":134.45}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":131.15}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":127.85}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":124.55}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":135.01}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":132.27}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":129.53}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":126.78999999999999}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":136.83}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":135.91}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":134.99}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":134.07}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":137.4}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":137.05}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":136.7}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":136.35}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":138.74}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":138.41}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":138.08}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":111.19}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":115.39}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":113.66}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":111.93}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":110.2}\n\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":5,\"qtd_batidas_nav2\":0,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":117.16}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.84}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":112.52000000000001}\n{\"tamanho_nav1\":\"40\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":110.2}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":135.76999999999998}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":132.14}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":128.51}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":124.88}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":136.32999999999998}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":133.26}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":130.19}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":127.11999999999999}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":138.15}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":136.9}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":135.65}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":134.4}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":1,\"largura_total\":138.72}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":138.04}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":137.35999999999999}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":136.68}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":138.74}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":138.41}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":138.08}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":115.72}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.32}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":112.92}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":117.49}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":115.5}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":113.51}\n{\"tamanho_nav1\":\"41\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":111.52}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":136.34}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":131.31}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":126.28}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":137.46}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":132.99}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":128.51999999999998}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":138.45}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":135.8}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":114.47}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":138.07999999999998}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":115.04}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":112.96000000000001}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":115.39}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":113.66}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":111.93}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":115.72}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.32}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":112.92}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":118.89}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":118.30000000000001}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":117.71000000000001}\n{\"tamanho_nav1\":\"42\",\"tamanho_nav2\":\"434\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":117.12}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":2,\"largura_total\":138.11}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":132.49}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":126.87}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":121.25}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"334\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":134.17}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":129.10999999999999}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":124.05}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"35\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":114.42}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":136.39}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":133.15}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":116.24}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"378\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":113}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":138.67}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":136}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":116.81}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"39\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.14}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":137.75}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":117.16}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":114.84}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"40\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":112.52000000000001}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":117.49}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":115.5}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":113.51}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"41\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":111.52}\n\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":119.48}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":118.89}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":2,\"largura_total\":118.30000000000001}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":3,\"largura_total\":117.71000000000001}\n{\"tamanho_nav1\":\"434\",\"tamanho_nav2\":\"42\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":4,\"largura_total\":117.12}\n\n----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n{\"tamanho_nav1\":\"45\",\"tamanho_nav2\":\"36\",\"largura_mesa\":139,\"qtd_batidas_nav1\":2,\"qtd_batidas_nav2\":3,\"largura_total\":136.25}\n{\"tamanho_nav1\":\"45\",\"tamanho_nav2\":\"36\",\"largura_mesa\":139,\"qtd_batidas_nav1\":1,\"qtd_batidas_nav2\":4,\"largura_total\":131}\n{\"tamanho_nav1\":\"45\",\"tamanho_nav2\":\"36\",\"largura_mesa\":139,\"qtd_batidas_nav1\":0,\"qtd_batidas_nav2\":5,\"largura_total\":125.75}\n{\"tamanho_nav1\":\"45\",\"tamanho_nav2\":\"36\",\"largura_mesa\":139,\"qtd_batidas_nav1\":4,\"qtd_batidas_nav2\":0,\"largura_total\":121.6}\n{\"tamanho_nav1\":\"45\",\"tamanho_nav2\":\"36\",\"largura_mesa\":139,\"qtd_batidas_nav1\":3,\"qtd_batidas_nav2\":1,\"largura_total\":116.35}\n"
+  }
+}

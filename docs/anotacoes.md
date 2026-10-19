@@ -41,3 +41,8 @@ Deverá então o metodo `getDivisaoDeTonalidades()` implementar a divisão com b
 As proximas sequencias não deverá levar em consideração um tamanho que ja foi escolhido anteriormente
 
 - primeiro comeco pelo maior tom
+
+
+----------------------------------------------------------------------------
+Apagado comentario do antigo codigo de divisao de tonalidades,
+Mudar o metodo `getConsumoDasNavalhas` trocando o uso de Record para Map

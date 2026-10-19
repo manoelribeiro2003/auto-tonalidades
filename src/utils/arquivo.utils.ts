@@ -23,11 +23,13 @@ export function escreverArquivo<T>(
   nomeArquivo: string,
   caminho?: string,
 ): void {
-  if (!nomeArquivo)
+  if (!nomeArquivo) {
     throw new Error("Erro: nome de arquivo em branco ou inválido");
+  }
 
-  if (caminho && !caminho.endsWith("/"))
+  if (caminho && !caminho.endsWith("/")) {
     throw new Error("Erro: insira um caminho válido com '/' no final");
+  }
 
   const pastaDestino =
     caminho ?? `resources/${tipo === "txt" ? "templates/" : "data/"}`;
@@ -37,7 +39,14 @@ export function escreverArquivo<T>(
   const caminhoArquivo = `${pastaDestino}${nomeArquivo}.${tipo}`;
 
   const conteudo =
-    tipo === "txt" ? String(dados) : JSON.stringify(dados, null, 2);
+    tipo === "txt"
+      ? String(dados)
+      : JSON.stringify(
+          dados,
+          (_chave, valor: unknown) =>
+            valor instanceof Map ? Object.fromEntries(valor) : valor,
+          2,
+        );
 
   writeFileSync(caminhoArquivo, conteudo, "utf8");
 }
