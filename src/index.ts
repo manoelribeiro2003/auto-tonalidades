@@ -16,6 +16,7 @@ import {
   getDivisaoDeTonalidades,
   type novoConsumoDasNavalhas,
 } from "./utils/consumo.utils.js";
+import { sequenciaDeBatidas } from "./utils/otimizacao.js";
 
 const LARGURA_MESA = {
   cabedal: 142,
@@ -102,7 +103,7 @@ const melhoresBatidasGaspeaExt = getMelhoresBatidas(
 // );
 // ===========================================================================================================================
 
-function sequenciaDeBatidas(
+/*function sequenciaDeBatidas(
   navalhas: navalha[],
   melhoresBatidas: melhores_batidas,
 ) {
@@ -113,10 +114,10 @@ function sequenciaDeBatidas(
 
   for (const [_, batidas_combinadas] of Object.entries(combinacoesDeBatidas)) {
     for (const batida_combinada of batidas_combinadas) {
-      let incluiNav1 = tamAlocados.includes(batida_combinada.tamanho_nav1);
-      let incluiNav2 = tamAlocados.includes(batida_combinada.tamanho_nav2);
-      let qtdBatNav1 = batida_combinada.qtd_batidas_nav1;
-      let qtdBatNav2 = batida_combinada.qtd_batidas_nav2;
+      const incluiNav1 = tamAlocados.includes(batida_combinada.tamanho_nav1);
+      const incluiNav2 = tamAlocados.includes(batida_combinada.tamanho_nav2);
+      const qtdBatNav1 = batida_combinada.qtd_batidas_nav1;
+      const qtdBatNav2 = batida_combinada.qtd_batidas_nav2;
 
       if (incluiNav1 && incluiNav2) {
         continue;
@@ -140,6 +141,7 @@ function sequenciaDeBatidas(
 
   return batidas;
 }
+*/
 
 const sequenciaGaspeaInt = sequenciaDeBatidas(
   nav1GaspeaInt,
