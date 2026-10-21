@@ -46,3 +46,6 @@ As proximas sequencias não deverá levar em consideração um tamanho que ja fo
 ----------------------------------------------------------------------------
 Apagado comentario do antigo codigo de divisao de tonalidades,
 Mudar o metodo `getConsumoDasNavalhas` trocando o uso de Record para Map
+
+
+O próximo código de que preciso é a implementação atual de sequenciaDeBatidas e dos tipos batidas_combinadas e melhores_batidas. Com isso, conseguimos integrar as regras existentes ao novo fluxo sem criar estruturas incompatíveis com o restante do projeto.

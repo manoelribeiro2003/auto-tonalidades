@@ -5,6 +5,7 @@ import { tom } from "./data/models/enums/tom.enum.js";
 import type { navalha } from "./data/models/types/navalha.type.js";
 import type { ReservaDeTom } from "./data/models/types/reservaDeTom.type.js";
 import type { tonalidade } from "./data/models/types/tonalidade.type.js";
+import { executarConversacao } from "./interacao/interacao.js";
 import { escreverArquivo } from "./utils/arquivo.utils.js";
 import {
   getMelhoresBatidas,
@@ -16,7 +17,6 @@ import {
   getDivisaoDeTonalidades,
   type novoConsumoDasNavalhas,
 } from "./utils/consumo.utils.js";
-import { sequenciaDeBatidas } from "./utils/otimizacao.js";
 
 const LARGURA_MESA = {
   cabedal: 142,
@@ -91,61 +91,8 @@ const melhoresBatidasGaspeaExt = getMelhoresBatidas(
   LARGURA_MESA.gaspea_externa,
   divTonalidadesGaspeas,
 );
-// escreverArquivo(
-//   "txt",
-//   melhoresBatidasGaspeaExt.logs,
-//   "melhoresBatidasGaspeaExt",
-// );
-// escreverArquivo(
-//   "json",
-//   melhoresBatidasGaspeaExt.todasCombinacoesDeBatidas,
-//   "melhoresBatidasGaspeaExt",
-// );
-// ===========================================================================================================================
 
-/*function sequenciaDeBatidas(
-  navalhas: navalha[],
-  melhoresBatidas: melhores_batidas,
-) {
-  const combinacoesDeBatidas = melhoresBatidas.todasCombinacoesDeBatidas;
-
-  const batidas: batidas_combinadas[] = [];
-  const tamAlocados: string[] = [];
-
-  for (const [_, batidas_combinadas] of Object.entries(combinacoesDeBatidas)) {
-    for (const batida_combinada of batidas_combinadas) {
-      const incluiNav1 = tamAlocados.includes(batida_combinada.tamanho_nav1);
-      const incluiNav2 = tamAlocados.includes(batida_combinada.tamanho_nav2);
-      const qtdBatNav1 = batida_combinada.qtd_batidas_nav1;
-      const qtdBatNav2 = batida_combinada.qtd_batidas_nav2;
-
-      if (incluiNav1 && incluiNav2) {
-        continue;
-      } else if (incluiNav1 || incluiNav2) {
-        if (incluiNav1 && qtdBatNav1 !== 0) continue;
-        if (incluiNav2 && qtdBatNav2 !== 0) continue;
-      }
-
-      batidas.push(batida_combinada);
-
-      if (batida_combinada.qtd_batidas_nav1 !== 0) {
-        tamAlocados.push(batida_combinada.tamanho_nav1);
-        console.log("tamanho inserido: ", batida_combinada.tamanho_nav1);
-      }
-      if (batida_combinada.qtd_batidas_nav2 !== 0) {
-        tamAlocados.push(batida_combinada.tamanho_nav2);
-        console.log("tamanho inserido: ", batida_combinada.tamanho_nav2);
-      }
-    }
-  }
-
-  return batidas;
-}
-*/
-
-const sequenciaGaspeaInt = sequenciaDeBatidas(
-  nav1GaspeaInt,
-  mel_bat_gasp_int_divididas,
-);
-
-escreverArquivo("json", sequenciaGaspeaInt, "sequenciaGaspeaInt");
+executarConversacao().catch((erro: unknown) => {
+  console.error("Erro durante a execução:", erro);
+  process.exitCode = 1;
+});
